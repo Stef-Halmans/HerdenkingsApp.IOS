@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9E1D3E1238076B400FDBA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D3E0238076B400FDBA2B /* AppDelegate.swift */; };
-		D9E1D3E4238076B400FDBA2B /* HerdenkingsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D3E2238076B400FDBA2B /* HerdenkingsApp.xcdatamodeld */; };
-		D9E1D3E6238076B400FDBA2B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D3E5238076B400FDBA2B /* MasterViewController.swift */; };
-		D9E1D3E8238076B400FDBA2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D3E7238076B400FDBA2B /* DetailViewController.swift */; };
-		D9E1D3EB238076B400FDBA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D3E9238076B400FDBA2B /* Main.storyboard */; };
-		D9E1D3ED238076B500FDBA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D3EC238076B500FDBA2B /* Assets.xcassets */; };
-		D9E1D3F0238076B500FDBA2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D3EE238076B500FDBA2B /* LaunchScreen.storyboard */; };
-		D9E1D3FB238076B500FDBA2B /* HerdenkingsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D3FA238076B500FDBA2B /* HerdenkingsAppTests.swift */; };
-		D9E1D406238076B500FDBA2B /* HerdenkingsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D405238076B500FDBA2B /* HerdenkingsAppUITests.swift */; };
+		D9E1D42723808AB500FDBA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D42623808AB500FDBA2B /* AppDelegate.swift */; };
+		D9E1D42923808AB500FDBA2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D42823808AB500FDBA2B /* ViewController.swift */; };
+		D9E1D42C23808AB500FDBA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D42A23808AB500FDBA2B /* Main.storyboard */; };
+		D9E1D42F23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D42D23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld */; };
+		D9E1D43123808AB500FDBA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D43023808AB500FDBA2B /* Assets.xcassets */; };
+		D9E1D43423808AB500FDBA2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D43223808AB500FDBA2B /* LaunchScreen.storyboard */; };
+		D9E1D43F23808AB500FDBA2B /* HerdenkingsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D43E23808AB500FDBA2B /* HerdenkingsAppTests.swift */; };
+		D9E1D44A23808AB500FDBA2B /* HerdenkingsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D44923808AB500FDBA2B /* HerdenkingsAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D9E1D3F7238076B500FDBA2B /* PBXContainerItemProxy */ = {
+		D9E1D43B23808AB500FDBA2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D9E1D3D5238076B400FDBA2B /* Project object */;
+			containerPortal = D9E1D41B23808AB500FDBA2B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9E1D3DC238076B400FDBA2B;
+			remoteGlobalIDString = D9E1D42223808AB500FDBA2B;
 			remoteInfo = HerdenkingsApp;
 		};
-		D9E1D402238076B500FDBA2B /* PBXContainerItemProxy */ = {
+		D9E1D44623808AB500FDBA2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D9E1D3D5238076B400FDBA2B /* Project object */;
+			containerPortal = D9E1D41B23808AB500FDBA2B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9E1D3DC238076B400FDBA2B;
+			remoteGlobalIDString = D9E1D42223808AB500FDBA2B;
 			remoteInfo = HerdenkingsApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D9E1D3DD238076B400FDBA2B /* HerdenkingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerdenkingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9E1D3E0238076B400FDBA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9E1D3E3238076B400FDBA2B /* HerdenkingsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HerdenkingsApp.xcdatamodel; sourceTree = "<group>"; };
-		D9E1D3E5238076B400FDBA2B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		D9E1D3E7238076B400FDBA2B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		D9E1D3EA238076B400FDBA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D9E1D3EC238076B500FDBA2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D9E1D3EF238076B500FDBA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D9E1D3F1238076B500FDBA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9E1D3F6238076B500FDBA2B /* HerdenkingsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerdenkingsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9E1D3FA238076B500FDBA2B /* HerdenkingsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerdenkingsAppTests.swift; sourceTree = "<group>"; };
-		D9E1D3FC238076B500FDBA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9E1D401238076B500FDBA2B /* HerdenkingsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerdenkingsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9E1D405238076B500FDBA2B /* HerdenkingsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerdenkingsAppUITests.swift; sourceTree = "<group>"; };
-		D9E1D407238076B500FDBA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E1D42323808AB500FDBA2B /* HerdenkingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerdenkingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E1D42623808AB500FDBA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9E1D42823808AB500FDBA2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9E1D42B23808AB500FDBA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9E1D42E23808AB500FDBA2B /* HerdenkingsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HerdenkingsApp.xcdatamodel; sourceTree = "<group>"; };
+		D9E1D43023808AB500FDBA2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9E1D43323808AB500FDBA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9E1D43523808AB500FDBA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E1D43A23808AB500FDBA2B /* HerdenkingsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerdenkingsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E1D43E23808AB500FDBA2B /* HerdenkingsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerdenkingsAppTests.swift; sourceTree = "<group>"; };
+		D9E1D44023808AB500FDBA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E1D44523808AB500FDBA2B /* HerdenkingsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerdenkingsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E1D44923808AB500FDBA2B /* HerdenkingsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerdenkingsAppUITests.swift; sourceTree = "<group>"; };
+		D9E1D44B23808AB500FDBA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D9E1D3DA238076B400FDBA2B /* Frameworks */ = {
+		D9E1D42023808AB500FDBA2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9E1D3F3238076B500FDBA2B /* Frameworks */ = {
+		D9E1D43723808AB500FDBA2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9E1D3FE238076B500FDBA2B /* Frameworks */ = {
+		D9E1D44223808AB500FDBA2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,55 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D9E1D3D4238076B400FDBA2B = {
+		D9E1D41A23808AB500FDBA2B = {
 			isa = PBXGroup;
 			children = (
-				D9E1D3DF238076B400FDBA2B /* HerdenkingsApp */,
-				D9E1D3F9238076B500FDBA2B /* HerdenkingsAppTests */,
-				D9E1D404238076B500FDBA2B /* HerdenkingsAppUITests */,
-				D9E1D3DE238076B400FDBA2B /* Products */,
+				D9E1D42523808AB500FDBA2B /* HerdenkingsApp */,
+				D9E1D43D23808AB500FDBA2B /* HerdenkingsAppTests */,
+				D9E1D44823808AB500FDBA2B /* HerdenkingsAppUITests */,
+				D9E1D42423808AB500FDBA2B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D9E1D3DE238076B400FDBA2B /* Products */ = {
+		D9E1D42423808AB500FDBA2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9E1D3DD238076B400FDBA2B /* HerdenkingsApp.app */,
-				D9E1D3F6238076B500FDBA2B /* HerdenkingsAppTests.xctest */,
-				D9E1D401238076B500FDBA2B /* HerdenkingsAppUITests.xctest */,
+				D9E1D42323808AB500FDBA2B /* HerdenkingsApp.app */,
+				D9E1D43A23808AB500FDBA2B /* HerdenkingsAppTests.xctest */,
+				D9E1D44523808AB500FDBA2B /* HerdenkingsAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9E1D3DF238076B400FDBA2B /* HerdenkingsApp */ = {
+		D9E1D42523808AB500FDBA2B /* HerdenkingsApp */ = {
 			isa = PBXGroup;
 			children = (
-				D9E1D3E0238076B400FDBA2B /* AppDelegate.swift */,
-				D9E1D3E5238076B400FDBA2B /* MasterViewController.swift */,
-				D9E1D3E7238076B400FDBA2B /* DetailViewController.swift */,
-				D9E1D3E9238076B400FDBA2B /* Main.storyboard */,
-				D9E1D3EC238076B500FDBA2B /* Assets.xcassets */,
-				D9E1D3EE238076B500FDBA2B /* LaunchScreen.storyboard */,
-				D9E1D3F1238076B500FDBA2B /* Info.plist */,
-				D9E1D3E2238076B400FDBA2B /* HerdenkingsApp.xcdatamodeld */,
+				D9E1D42623808AB500FDBA2B /* AppDelegate.swift */,
+				D9E1D42823808AB500FDBA2B /* ViewController.swift */,
+				D9E1D42A23808AB500FDBA2B /* Main.storyboard */,
+				D9E1D43023808AB500FDBA2B /* Assets.xcassets */,
+				D9E1D43223808AB500FDBA2B /* LaunchScreen.storyboard */,
+				D9E1D43523808AB500FDBA2B /* Info.plist */,
+				D9E1D42D23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld */,
 			);
 			path = HerdenkingsApp;
 			sourceTree = "<group>";
 		};
-		D9E1D3F9238076B500FDBA2B /* HerdenkingsAppTests */ = {
+		D9E1D43D23808AB500FDBA2B /* HerdenkingsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				D9E1D3FA238076B500FDBA2B /* HerdenkingsAppTests.swift */,
-				D9E1D3FC238076B500FDBA2B /* Info.plist */,
+				D9E1D43E23808AB500FDBA2B /* HerdenkingsAppTests.swift */,
+				D9E1D44023808AB500FDBA2B /* Info.plist */,
 			);
 			path = HerdenkingsAppTests;
 			sourceTree = "<group>";
 		};
-		D9E1D404238076B500FDBA2B /* HerdenkingsAppUITests */ = {
+		D9E1D44823808AB500FDBA2B /* HerdenkingsAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D9E1D405238076B500FDBA2B /* HerdenkingsAppUITests.swift */,
-				D9E1D407238076B500FDBA2B /* Info.plist */,
+				D9E1D44923808AB500FDBA2B /* HerdenkingsAppUITests.swift */,
+				D9E1D44B23808AB500FDBA2B /* Info.plist */,
 			);
 			path = HerdenkingsAppUITests;
 			sourceTree = "<group>";
@@ -134,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D9E1D3DC238076B400FDBA2B /* HerdenkingsApp */ = {
+		D9E1D42223808AB500FDBA2B /* HerdenkingsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9E1D40A238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsApp" */;
+			buildConfigurationList = D9E1D44E23808AB500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsApp" */;
 			buildPhases = (
-				D9E1D3D9238076B400FDBA2B /* Sources */,
-				D9E1D3DA238076B400FDBA2B /* Frameworks */,
-				D9E1D3DB238076B400FDBA2B /* Resources */,
+				D9E1D41F23808AB500FDBA2B /* Sources */,
+				D9E1D42023808AB500FDBA2B /* Frameworks */,
+				D9E1D42123808AB500FDBA2B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,69 +145,69 @@
 			);
 			name = HerdenkingsApp;
 			productName = HerdenkingsApp;
-			productReference = D9E1D3DD238076B400FDBA2B /* HerdenkingsApp.app */;
+			productReference = D9E1D42323808AB500FDBA2B /* HerdenkingsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D9E1D3F5238076B500FDBA2B /* HerdenkingsAppTests */ = {
+		D9E1D43923808AB500FDBA2B /* HerdenkingsAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9E1D40D238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppTests" */;
+			buildConfigurationList = D9E1D45123808AB500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppTests" */;
 			buildPhases = (
-				D9E1D3F2238076B500FDBA2B /* Sources */,
-				D9E1D3F3238076B500FDBA2B /* Frameworks */,
-				D9E1D3F4238076B500FDBA2B /* Resources */,
+				D9E1D43623808AB500FDBA2B /* Sources */,
+				D9E1D43723808AB500FDBA2B /* Frameworks */,
+				D9E1D43823808AB500FDBA2B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D9E1D3F8238076B500FDBA2B /* PBXTargetDependency */,
+				D9E1D43C23808AB500FDBA2B /* PBXTargetDependency */,
 			);
 			name = HerdenkingsAppTests;
 			productName = HerdenkingsAppTests;
-			productReference = D9E1D3F6238076B500FDBA2B /* HerdenkingsAppTests.xctest */;
+			productReference = D9E1D43A23808AB500FDBA2B /* HerdenkingsAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D9E1D400238076B500FDBA2B /* HerdenkingsAppUITests */ = {
+		D9E1D44423808AB500FDBA2B /* HerdenkingsAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9E1D410238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppUITests" */;
+			buildConfigurationList = D9E1D45423808AB500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppUITests" */;
 			buildPhases = (
-				D9E1D3FD238076B500FDBA2B /* Sources */,
-				D9E1D3FE238076B500FDBA2B /* Frameworks */,
-				D9E1D3FF238076B500FDBA2B /* Resources */,
+				D9E1D44123808AB500FDBA2B /* Sources */,
+				D9E1D44223808AB500FDBA2B /* Frameworks */,
+				D9E1D44323808AB500FDBA2B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D9E1D403238076B500FDBA2B /* PBXTargetDependency */,
+				D9E1D44723808AB500FDBA2B /* PBXTargetDependency */,
 			);
 			name = HerdenkingsAppUITests;
 			productName = HerdenkingsAppUITests;
-			productReference = D9E1D401238076B500FDBA2B /* HerdenkingsAppUITests.xctest */;
+			productReference = D9E1D44523808AB500FDBA2B /* HerdenkingsAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D9E1D3D5238076B400FDBA2B /* Project object */ = {
+		D9E1D41B23808AB500FDBA2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Stef Halmans";
 				TargetAttributes = {
-					D9E1D3DC238076B400FDBA2B = {
+					D9E1D42223808AB500FDBA2B = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					D9E1D3F5238076B500FDBA2B = {
+					D9E1D43923808AB500FDBA2B = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = D9E1D3DC238076B400FDBA2B;
+						TestTargetID = D9E1D42223808AB500FDBA2B;
 					};
-					D9E1D400238076B500FDBA2B = {
+					D9E1D44423808AB500FDBA2B = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = D9E1D3DC238076B400FDBA2B;
+						TestTargetID = D9E1D42223808AB500FDBA2B;
 					};
 				};
 			};
-			buildConfigurationList = D9E1D3D8238076B400FDBA2B /* Build configuration list for PBXProject "HerdenkingsApp" */;
+			buildConfigurationList = D9E1D41E23808AB500FDBA2B /* Build configuration list for PBXProject "HerdenkingsApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = D9E1D3D4238076B400FDBA2B;
-			productRefGroup = D9E1D3DE238076B400FDBA2B /* Products */;
+			mainGroup = D9E1D41A23808AB500FDBA2B;
+			productRefGroup = D9E1D42423808AB500FDBA2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9E1D3DC238076B400FDBA2B /* HerdenkingsApp */,
-				D9E1D3F5238076B500FDBA2B /* HerdenkingsAppTests */,
-				D9E1D400238076B500FDBA2B /* HerdenkingsAppUITests */,
+				D9E1D42223808AB500FDBA2B /* HerdenkingsApp */,
+				D9E1D43923808AB500FDBA2B /* HerdenkingsAppTests */,
+				D9E1D44423808AB500FDBA2B /* HerdenkingsAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D9E1D3DB238076B400FDBA2B /* Resources */ = {
+		D9E1D42123808AB500FDBA2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9E1D3F0238076B500FDBA2B /* LaunchScreen.storyboard in Resources */,
-				D9E1D3ED238076B500FDBA2B /* Assets.xcassets in Resources */,
-				D9E1D3EB238076B400FDBA2B /* Main.storyboard in Resources */,
+				D9E1D43423808AB500FDBA2B /* LaunchScreen.storyboard in Resources */,
+				D9E1D43123808AB500FDBA2B /* Assets.xcassets in Resources */,
+				D9E1D42C23808AB500FDBA2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9E1D3F4238076B500FDBA2B /* Resources */ = {
+		D9E1D43823808AB500FDBA2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9E1D3FF238076B500FDBA2B /* Resources */ = {
+		D9E1D44323808AB500FDBA2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,61 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D9E1D3D9238076B400FDBA2B /* Sources */ = {
+		D9E1D41F23808AB500FDBA2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9E1D3E4238076B400FDBA2B /* HerdenkingsApp.xcdatamodeld in Sources */,
-				D9E1D3E1238076B400FDBA2B /* AppDelegate.swift in Sources */,
-				D9E1D3E6238076B400FDBA2B /* MasterViewController.swift in Sources */,
-				D9E1D3E8238076B400FDBA2B /* DetailViewController.swift in Sources */,
+				D9E1D42923808AB500FDBA2B /* ViewController.swift in Sources */,
+				D9E1D42F23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld in Sources */,
+				D9E1D42723808AB500FDBA2B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9E1D3F2238076B500FDBA2B /* Sources */ = {
+		D9E1D43623808AB500FDBA2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9E1D3FB238076B500FDBA2B /* HerdenkingsAppTests.swift in Sources */,
+				D9E1D43F23808AB500FDBA2B /* HerdenkingsAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9E1D3FD238076B500FDBA2B /* Sources */ = {
+		D9E1D44123808AB500FDBA2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9E1D406238076B500FDBA2B /* HerdenkingsAppUITests.swift in Sources */,
+				D9E1D44A23808AB500FDBA2B /* HerdenkingsAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D9E1D3F8238076B500FDBA2B /* PBXTargetDependency */ = {
+		D9E1D43C23808AB500FDBA2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9E1D3DC238076B400FDBA2B /* HerdenkingsApp */;
-			targetProxy = D9E1D3F7238076B500FDBA2B /* PBXContainerItemProxy */;
+			target = D9E1D42223808AB500FDBA2B /* HerdenkingsApp */;
+			targetProxy = D9E1D43B23808AB500FDBA2B /* PBXContainerItemProxy */;
 		};
-		D9E1D403238076B500FDBA2B /* PBXTargetDependency */ = {
+		D9E1D44723808AB500FDBA2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9E1D3DC238076B400FDBA2B /* HerdenkingsApp */;
-			targetProxy = D9E1D402238076B500FDBA2B /* PBXContainerItemProxy */;
+			target = D9E1D42223808AB500FDBA2B /* HerdenkingsApp */;
+			targetProxy = D9E1D44623808AB500FDBA2B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D9E1D3E9238076B400FDBA2B /* Main.storyboard */ = {
+		D9E1D42A23808AB500FDBA2B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D9E1D3EA238076B400FDBA2B /* Base */,
+				D9E1D42B23808AB500FDBA2B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D9E1D3EE238076B500FDBA2B /* LaunchScreen.storyboard */ = {
+		D9E1D43223808AB500FDBA2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D9E1D3EF238076B500FDBA2B /* Base */,
+				D9E1D43323808AB500FDBA2B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D9E1D408238076B500FDBA2B /* Debug */ = {
+		D9E1D44C23808AB500FDBA2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		D9E1D409238076B500FDBA2B /* Release */ = {
+		D9E1D44D23808AB500FDBA2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,13 +430,14 @@
 			};
 			name = Release;
 		};
-		D9E1D40B238076B500FDBA2B /* Debug */ = {
+		D9E1D44F23808AB500FDBA2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9R8377M6W;
 				INFOPLIST_FILE = HerdenkingsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,13 +449,14 @@
 			};
 			name = Debug;
 		};
-		D9E1D40C238076B500FDBA2B /* Release */ = {
+		D9E1D45023808AB500FDBA2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9R8377M6W;
 				INFOPLIST_FILE = HerdenkingsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,7 +468,7 @@
 			};
 			name = Release;
 		};
-		D9E1D40E238076B500FDBA2B /* Debug */ = {
+		D9E1D45223808AB500FDBA2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -491,7 +489,7 @@
 			};
 			name = Debug;
 		};
-		D9E1D40F238076B500FDBA2B /* Release */ = {
+		D9E1D45323808AB500FDBA2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,7 +510,7 @@
 			};
 			name = Release;
 		};
-		D9E1D411238076B500FDBA2B /* Debug */ = {
+		D9E1D45523808AB500FDBA2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -532,7 +530,7 @@
 			};
 			name = Debug;
 		};
-		D9E1D412238076B500FDBA2B /* Release */ = {
+		D9E1D45623808AB500FDBA2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,38 +553,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9E1D3D8238076B400FDBA2B /* Build configuration list for PBXProject "HerdenkingsApp" */ = {
+		D9E1D41E23808AB500FDBA2B /* Build configuration list for PBXProject "HerdenkingsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9E1D408238076B500FDBA2B /* Debug */,
-				D9E1D409238076B500FDBA2B /* Release */,
+				D9E1D44C23808AB500FDBA2B /* Debug */,
+				D9E1D44D23808AB500FDBA2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9E1D40A238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsApp" */ = {
+		D9E1D44E23808AB500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9E1D40B238076B500FDBA2B /* Debug */,
-				D9E1D40C238076B500FDBA2B /* Release */,
+				D9E1D44F23808AB500FDBA2B /* Debug */,
+				D9E1D45023808AB500FDBA2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9E1D40D238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppTests" */ = {
+		D9E1D45123808AB500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9E1D40E238076B500FDBA2B /* Debug */,
-				D9E1D40F238076B500FDBA2B /* Release */,
+				D9E1D45223808AB500FDBA2B /* Debug */,
+				D9E1D45323808AB500FDBA2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9E1D410238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppUITests" */ = {
+		D9E1D45423808AB500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9E1D411238076B500FDBA2B /* Debug */,
-				D9E1D412238076B500FDBA2B /* Release */,
+				D9E1D45523808AB500FDBA2B /* Debug */,
+				D9E1D45623808AB500FDBA2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -594,17 +592,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D9E1D3E2238076B400FDBA2B /* HerdenkingsApp.xcdatamodeld */ = {
+		D9E1D42D23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D9E1D3E3238076B400FDBA2B /* HerdenkingsApp.xcdatamodel */,
+				D9E1D42E23808AB500FDBA2B /* HerdenkingsApp.xcdatamodel */,
 			);
-			currentVersion = D9E1D3E3238076B400FDBA2B /* HerdenkingsApp.xcdatamodel */;
+			currentVersion = D9E1D42E23808AB500FDBA2B /* HerdenkingsApp.xcdatamodel */;
 			path = HerdenkingsApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = D9E1D3D5238076B400FDBA2B /* Project object */;
+	rootObject = D9E1D41B23808AB500FDBA2B /* Project object */;
 }
