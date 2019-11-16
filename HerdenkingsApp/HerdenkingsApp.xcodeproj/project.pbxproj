@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9E1D3E1238076B400FDBA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D3E0238076B400FDBA2B /* AppDelegate.swift */; };
+		D9E1D3E4238076B400FDBA2B /* HerdenkingsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D3E2238076B400FDBA2B /* HerdenkingsApp.xcdatamodeld */; };
+		D9E1D3E6238076B400FDBA2B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D3E5238076B400FDBA2B /* MasterViewController.swift */; };
+		D9E1D3E8238076B400FDBA2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D3E7238076B400FDBA2B /* DetailViewController.swift */; };
+		D9E1D3EB238076B400FDBA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D3E9238076B400FDBA2B /* Main.storyboard */; };
+		D9E1D3ED238076B500FDBA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D3EC238076B500FDBA2B /* Assets.xcassets */; };
+		D9E1D3F0238076B500FDBA2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D3EE238076B500FDBA2B /* LaunchScreen.storyboard */; };
+		D9E1D3FB238076B500FDBA2B /* HerdenkingsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D3FA238076B500FDBA2B /* HerdenkingsAppTests.swift */; };
+		D9E1D406238076B500FDBA2B /* HerdenkingsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D405238076B500FDBA2B /* HerdenkingsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9E1D3F7238076B500FDBA2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E1D3D5238076B400FDBA2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E1D3DC238076B400FDBA2B;
+			remoteInfo = HerdenkingsApp;
+		};
+		D9E1D402238076B500FDBA2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E1D3D5238076B400FDBA2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E1D3DC238076B400FDBA2B;
+			remoteInfo = HerdenkingsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9E1D3DD238076B400FDBA2B /* HerdenkingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerdenkingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E1D3E0238076B400FDBA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9E1D3E3238076B400FDBA2B /* HerdenkingsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HerdenkingsApp.xcdatamodel; sourceTree = "<group>"; };
+		D9E1D3E5238076B400FDBA2B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D9E1D3E7238076B400FDBA2B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D9E1D3EA238076B400FDBA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9E1D3EC238076B500FDBA2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9E1D3EF238076B500FDBA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9E1D3F1238076B500FDBA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E1D3F6238076B500FDBA2B /* HerdenkingsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerdenkingsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E1D3FA238076B500FDBA2B /* HerdenkingsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerdenkingsAppTests.swift; sourceTree = "<group>"; };
+		D9E1D3FC238076B500FDBA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E1D401238076B500FDBA2B /* HerdenkingsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerdenkingsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E1D405238076B500FDBA2B /* HerdenkingsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerdenkingsAppUITests.swift; sourceTree = "<group>"; };
+		D9E1D407238076B500FDBA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9E1D3DA238076B400FDBA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E1D3F3238076B500FDBA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E1D3FE238076B500FDBA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9E1D3D4238076B400FDBA2B = {
+			isa = PBXGroup;
+			children = (
+				D9E1D3DF238076B400FDBA2B /* HerdenkingsApp */,
+				D9E1D3F9238076B500FDBA2B /* HerdenkingsAppTests */,
+				D9E1D404238076B500FDBA2B /* HerdenkingsAppUITests */,
+				D9E1D3DE238076B400FDBA2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E1D3DE238076B400FDBA2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1D3DD238076B400FDBA2B /* HerdenkingsApp.app */,
+				D9E1D3F6238076B500FDBA2B /* HerdenkingsAppTests.xctest */,
+				D9E1D401238076B500FDBA2B /* HerdenkingsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E1D3DF238076B400FDBA2B /* HerdenkingsApp */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1D3E0238076B400FDBA2B /* AppDelegate.swift */,
+				D9E1D3E5238076B400FDBA2B /* MasterViewController.swift */,
+				D9E1D3E7238076B400FDBA2B /* DetailViewController.swift */,
+				D9E1D3E9238076B400FDBA2B /* Main.storyboard */,
+				D9E1D3EC238076B500FDBA2B /* Assets.xcassets */,
+				D9E1D3EE238076B500FDBA2B /* LaunchScreen.storyboard */,
+				D9E1D3F1238076B500FDBA2B /* Info.plist */,
+				D9E1D3E2238076B400FDBA2B /* HerdenkingsApp.xcdatamodeld */,
+			);
+			path = HerdenkingsApp;
+			sourceTree = "<group>";
+		};
+		D9E1D3F9238076B500FDBA2B /* HerdenkingsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1D3FA238076B500FDBA2B /* HerdenkingsAppTests.swift */,
+				D9E1D3FC238076B500FDBA2B /* Info.plist */,
+			);
+			path = HerdenkingsAppTests;
+			sourceTree = "<group>";
+		};
+		D9E1D404238076B500FDBA2B /* HerdenkingsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1D405238076B500FDBA2B /* HerdenkingsAppUITests.swift */,
+				D9E1D407238076B500FDBA2B /* Info.plist */,
+			);
+			path = HerdenkingsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9E1D3DC238076B400FDBA2B /* HerdenkingsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E1D40A238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsApp" */;
+			buildPhases = (
+				D9E1D3D9238076B400FDBA2B /* Sources */,
+				D9E1D3DA238076B400FDBA2B /* Frameworks */,
+				D9E1D3DB238076B400FDBA2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HerdenkingsApp;
+			productName = HerdenkingsApp;
+			productReference = D9E1D3DD238076B400FDBA2B /* HerdenkingsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9E1D3F5238076B500FDBA2B /* HerdenkingsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E1D40D238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppTests" */;
+			buildPhases = (
+				D9E1D3F2238076B500FDBA2B /* Sources */,
+				D9E1D3F3238076B500FDBA2B /* Frameworks */,
+				D9E1D3F4238076B500FDBA2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E1D3F8238076B500FDBA2B /* PBXTargetDependency */,
+			);
+			name = HerdenkingsAppTests;
+			productName = HerdenkingsAppTests;
+			productReference = D9E1D3F6238076B500FDBA2B /* HerdenkingsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9E1D400238076B500FDBA2B /* HerdenkingsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E1D410238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppUITests" */;
+			buildPhases = (
+				D9E1D3FD238076B500FDBA2B /* Sources */,
+				D9E1D3FE238076B500FDBA2B /* Frameworks */,
+				D9E1D3FF238076B500FDBA2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E1D403238076B500FDBA2B /* PBXTargetDependency */,
+			);
+			name = HerdenkingsAppUITests;
+			productName = HerdenkingsAppUITests;
+			productReference = D9E1D401238076B500FDBA2B /* HerdenkingsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9E1D3D5238076B400FDBA2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Stef Halmans";
+				TargetAttributes = {
+					D9E1D3DC238076B400FDBA2B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D9E1D3F5238076B500FDBA2B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D9E1D3DC238076B400FDBA2B;
+					};
+					D9E1D400238076B500FDBA2B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D9E1D3DC238076B400FDBA2B;
+					};
+				};
+			};
+			buildConfigurationList = D9E1D3D8238076B400FDBA2B /* Build configuration list for PBXProject "HerdenkingsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9E1D3D4238076B400FDBA2B;
+			productRefGroup = D9E1D3DE238076B400FDBA2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9E1D3DC238076B400FDBA2B /* HerdenkingsApp */,
+				D9E1D3F5238076B500FDBA2B /* HerdenkingsAppTests */,
+				D9E1D400238076B500FDBA2B /* HerdenkingsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9E1D3DB238076B400FDBA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E1D3F0238076B500FDBA2B /* LaunchScreen.storyboard in Resources */,
+				D9E1D3ED238076B500FDBA2B /* Assets.xcassets in Resources */,
+				D9E1D3EB238076B400FDBA2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E1D3F4238076B500FDBA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E1D3FF238076B500FDBA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9E1D3D9238076B400FDBA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E1D3E4238076B400FDBA2B /* HerdenkingsApp.xcdatamodeld in Sources */,
+				D9E1D3E1238076B400FDBA2B /* AppDelegate.swift in Sources */,
+				D9E1D3E6238076B400FDBA2B /* MasterViewController.swift in Sources */,
+				D9E1D3E8238076B400FDBA2B /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E1D3F2238076B500FDBA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E1D3FB238076B500FDBA2B /* HerdenkingsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E1D3FD238076B500FDBA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E1D406238076B500FDBA2B /* HerdenkingsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9E1D3F8238076B500FDBA2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E1D3DC238076B400FDBA2B /* HerdenkingsApp */;
+			targetProxy = D9E1D3F7238076B500FDBA2B /* PBXContainerItemProxy */;
+		};
+		D9E1D403238076B500FDBA2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E1D3DC238076B400FDBA2B /* HerdenkingsApp */;
+			targetProxy = D9E1D402238076B500FDBA2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9E1D3E9238076B400FDBA2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E1D3EA238076B400FDBA2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9E1D3EE238076B500FDBA2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E1D3EF238076B500FDBA2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9E1D408238076B500FDBA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9E1D409238076B500FDBA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9E1D40B238076B500FDBA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9R8377M6W;
+				INFOPLIST_FILE = HerdenkingsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StefInc.HerdenkingsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9E1D40C238076B500FDBA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9R8377M6W;
+				INFOPLIST_FILE = HerdenkingsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StefInc.HerdenkingsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9E1D40E238076B500FDBA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9R8377M6W;
+				INFOPLIST_FILE = HerdenkingsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StefInc.HerdenkingsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HerdenkingsApp.app/HerdenkingsApp";
+			};
+			name = Debug;
+		};
+		D9E1D40F238076B500FDBA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9R8377M6W;
+				INFOPLIST_FILE = HerdenkingsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StefInc.HerdenkingsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HerdenkingsApp.app/HerdenkingsApp";
+			};
+			name = Release;
+		};
+		D9E1D411238076B500FDBA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9R8377M6W;
+				INFOPLIST_FILE = HerdenkingsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StefInc.HerdenkingsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HerdenkingsApp;
+			};
+			name = Debug;
+		};
+		D9E1D412238076B500FDBA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9R8377M6W;
+				INFOPLIST_FILE = HerdenkingsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StefInc.HerdenkingsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HerdenkingsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9E1D3D8238076B400FDBA2B /* Build configuration list for PBXProject "HerdenkingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E1D408238076B500FDBA2B /* Debug */,
+				D9E1D409238076B500FDBA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E1D40A238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E1D40B238076B500FDBA2B /* Debug */,
+				D9E1D40C238076B500FDBA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E1D40D238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E1D40E238076B500FDBA2B /* Debug */,
+				D9E1D40F238076B500FDBA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E1D410238076B500FDBA2B /* Build configuration list for PBXNativeTarget "HerdenkingsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E1D411238076B500FDBA2B /* Debug */,
+				D9E1D412238076B500FDBA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9E1D3E2238076B400FDBA2B /* HerdenkingsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9E1D3E3238076B400FDBA2B /* HerdenkingsApp.xcdatamodel */,
+			);
+			currentVersion = D9E1D3E3238076B400FDBA2B /* HerdenkingsApp.xcdatamodel */;
+			path = HerdenkingsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9E1D3D5238076B400FDBA2B /* Project object */;
+}
