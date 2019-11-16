@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90C815B23809F1B00147EAA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90C815A23809F1B00147EAA /* BaseViewController.swift */; };
 		D9E1D42723808AB500FDBA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D42623808AB500FDBA2B /* AppDelegate.swift */; };
 		D9E1D42923808AB500FDBA2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D42823808AB500FDBA2B /* ViewController.swift */; };
 		D9E1D42C23808AB500FDBA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D42A23808AB500FDBA2B /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D90C815A23809F1B00147EAA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D9E1D42323808AB500FDBA2B /* HerdenkingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerdenkingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E1D42623808AB500FDBA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9E1D42823808AB500FDBA2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				D9E1D43223808AB500FDBA2B /* LaunchScreen.storyboard */,
 				D9E1D43523808AB500FDBA2B /* Info.plist */,
 				D9E1D42D23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld */,
+				D90C815A23809F1B00147EAA /* BaseViewController.swift */,
 			);
 			path = HerdenkingsApp;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9E1D42923808AB500FDBA2B /* ViewController.swift in Sources */,
+				D90C815B23809F1B00147EAA /* BaseViewController.swift in Sources */,
 				D9E1D42F23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld in Sources */,
 				D9E1D42723808AB500FDBA2B /* AppDelegate.swift in Sources */,
 			);

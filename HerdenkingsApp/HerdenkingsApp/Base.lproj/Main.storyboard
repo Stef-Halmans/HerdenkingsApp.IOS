@@ -11,52 +11,41 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="V2M-Y0-Kiq">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="Yez-WV-dI9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7bF-uz-HkG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EtY-q7-q2M">
-                                <rect key="frame" x="380" y="64" width="250" height="603"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fug-G4-Jns">
+                                <rect key="frame" x="125" y="64" width="250" height="603"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SQ-IJ-Pt9">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXZ-Ew-ovC">
                                         <rect key="frame" x="102" y="49" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
-                                        <connections>
-                                            <segue destination="tbV-C6-Pzw" kind="show" id="Fly-h4-g4G"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.63305761829999996" green="0.63617227980000002" blue="0.61987084189999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="P8c-de-641"/>
+                                    <constraint firstAttribute="width" constant="250" id="Rm9-34-Bgp"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="EtY-q7-q2M" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="64" id="AEr-gn-awg"/>
-                            <constraint firstAttribute="trailing" secondItem="EtY-q7-q2M" secondAttribute="trailing" constant="-255" id="MJa-k5-bha"/>
-                            <constraint firstAttribute="bottom" secondItem="EtY-q7-q2M" secondAttribute="bottom" id="eHz-rx-FtA"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Pu8-pQ-2ao"/>
                     </view>
-                    <navigationItem key="navigationItem" id="XXI-gQ-82V">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="HamburgerMenu" id="VIz-y1-b6Z">
-                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <connections>
-                                <action selector="HamburgerMenuClicked:" destination="BYZ-38-t0r" id="Ucm-l7-gNp"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="detailPage" destination="EtY-q7-q2M" id="eMP-xu-N6l"/>
-                        <outlet property="leadingConstraint" destination="MJa-k5-bha" id="nbe-ge-3zo"/>
-                        <outlet property="masterPage" destination="8bC-Xf-vdC" id="wLM-gj-ik4"/>
-                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AfZ-iE-Kdj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="521" y="65"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="XXI-gQ-82V"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -96,7 +85,4 @@
             <point key="canvasLocation" x="117.59999999999999" y="776.76161919040487"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="HamburgerMenu" width="40" height="33"/>
-    </resources>
 </document>
