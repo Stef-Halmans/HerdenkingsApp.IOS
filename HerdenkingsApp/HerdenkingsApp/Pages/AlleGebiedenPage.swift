@@ -1,32 +1,22 @@
 //
-//  ViewController.swift
+//  RegioPage.swift
 //  HerdenkingsApp
 //
-//  Created by Stef Halmans on 11/16/19.
+//  Created by Stef Halmans on 11/17/19.
 //  Copyright © 2019 Stef Halmans. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: BaseViewController {
+class AlleGebiedenPage: PageController {
 
-    
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
 
     }
-
-    
-    
-    
-    
     
 
-        
-    
+
 
 }
-
