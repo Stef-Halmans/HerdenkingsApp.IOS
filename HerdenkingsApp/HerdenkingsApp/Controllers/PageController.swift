@@ -9,11 +9,12 @@
 import UIKit
 
 class PageController: UIViewController {
-
+    
     var containerDelegate: ContainerControllerDelegate?
+    var containerButtonDelegate: ContainerButtonDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
 }

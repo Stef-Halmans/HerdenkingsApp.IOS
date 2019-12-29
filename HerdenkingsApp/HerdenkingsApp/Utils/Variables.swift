@@ -15,3 +15,7 @@ public enum pages{
 
 public var previousPage: pages!
 public var currentPage: pages!
+
+public var showingSideMenu = false
+
+public var monumenten: [Test] = []

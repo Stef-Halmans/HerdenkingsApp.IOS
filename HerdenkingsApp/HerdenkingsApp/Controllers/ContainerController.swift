@@ -10,7 +10,7 @@ import UIKit
 
 class ContainerController: UIViewController{
     
-    var sideMenuController: SideMenuController?
+    // var sideMenuController: UIViewController?
     var centerPageController: PageController!
     
     var centerNavigationController: UINavigationController!
@@ -21,13 +21,13 @@ class ContainerController: UIViewController{
     
     let centerPanelExpandedOffset: CGFloat = 90
     
-    var isExpanded = false
+    let transition = SlideInTransition()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setPage(page: currentPage)
-        configureSideMenu()
+        
         
     }
     
@@ -47,16 +47,24 @@ class ContainerController: UIViewController{
         case .none:
             break
         }
-
+        
         centerPageController.containerDelegate = self
+        centerPageController.containerButtonDelegate = self
         
         configureNavigationBar()
+        
+        
         
         centerNavigationController = UINavigationController(rootViewController: centerPageController)
         view.addSubview(centerNavigationController.view)
         addChildViewController(centerNavigationController)
         centerNavigationController.didMove(toParentViewController: self)
+        
+        
     }
+    
+    
+    
     
     @IBAction func backButtonPressed(_ sender: Any){
         changePage(page: previousPage)
@@ -88,41 +96,31 @@ class ContainerController: UIViewController{
         
     }
     
-    func configureSideMenu(){
-        sideMenuController = UIStoryboard.sideMenuController()
-        sideMenuController?.containerDelegate = self
-        view.insertSubview(sideMenuController!.view, at: 0)
-        addChildViewController(sideMenuController!)
-        sideMenuController?.didMove(toParentViewController: self)
-    }
-    
     @IBAction func HamburgerMenuClicked(_ sender: Any) {
-        animateSideMenu(expand: !self.isExpanded)
-        isExpanded = !isExpanded
+        guard let sideMenuController = UIStoryboard.sideMenuController()
+            else {return}
+        sideMenuController.modalPresentationStyle = .overCurrentContext
+        sideMenuController.transitioningDelegate = self
+        sideMenuController.containerDelegate = self
+        transition.containerButtonDelegate = self
+        present(sideMenuController, animated: true)
     }
     
-    func animateSideMenu(expand: Bool) {
-        if expand {
-            animateCenterPanelXPosition(
-                targetPosition: -self.centerNavigationController.view.frame.width + centerPanelExpandedOffset)
-        } else {
-            animateCenterPanelXPosition(targetPosition: 0) { _ in
-            }
-        }
-    }
     
-    func animateCenterPanelXPosition(targetPosition: CGFloat, completion: ((Bool) -> Void)? = nil) {
-                UIView.animate(withDuration: 0.5,
-                       delay: 0,
-                       usingSpringWithDamping: 0.8,
-                       initialSpringVelocity: 0,
-                       options: .curveEaseInOut, animations: {
-                       self.centerNavigationController.view.frame.origin.x = targetPosition
-        }, completion: completion)
-        print("animated")
-    }
 }
 
+extension ContainerController: UIViewControllerTransitioningDelegate {
+    
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        showingSideMenu = false
+        return transition
+    }
+    
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning?{
+        showingSideMenu = true
+        return transition
+    }
+}
 
 
 

@@ -11,8 +11,9 @@ import UIKit
 extension ContainerController : ContainerControllerDelegate{
     
     func changePage(page: pages) {
-        animateSideMenu(expand: false)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.075){
+        // animateSideMenu(expand: false)
+        dismiss(animated: true)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2){
             previousPage = currentPage
             currentPage = page
             
@@ -23,13 +24,24 @@ extension ContainerController : ContainerControllerDelegate{
             
         }
     }
+    
+    
+}
+
+extension ContainerController : ContainerButtonDelegate{
+    @objc func HideDetailPage(_ sender: UIGestureRecognizer){
+        print("hideDetailPage")
+        if(showingSideMenu){
+            dismiss(animated: true)
+        }
+    }
 }
 
 extension UIStoryboard{
     static func mainStoryboard() -> UIStoryboard{return UIStoryboard(name: "Main", bundle: Bundle.main)}
     
     static func sideMenuController() -> SideMenuController? {
-        return mainStoryboard().instantiateViewController(withIdentifier: "SideMenuController") as? SideMenuController
+        return mainStoryboard().instantiateViewController(withIdentifier: "SideMenuTableView") as? SideMenuController
     }
     
     static func mainPage() -> MainPage? {
@@ -53,7 +65,7 @@ extension UIStoryboard{
     }
     
 }
-    
-    
-    
+
+
+
 
