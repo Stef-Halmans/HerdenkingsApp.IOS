@@ -18,6 +18,12 @@ class MainPage : PageController {
         
 
     }
-
+    @IBAction func GeschiedenisButton(_ sender: UIButton, forEvent event: UIEvent) {
+        containerDelegate?.changePage(page: pages.geschiedenisPage)
+    }
+    
+    @IBAction func MonumentenButton(_ sender: UIButton) {
+        containerDelegate?.changePage(page: pages.alleGebiedenPage)
+    }
 }
 
