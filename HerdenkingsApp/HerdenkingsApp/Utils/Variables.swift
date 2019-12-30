@@ -13,5 +13,17 @@ public enum pages{
     case geschiedenisPage
 }
 
+public enum gebieden{
+    case roermond
+    case herten
+    case swalmen
+    case maasniel
+    case asenray
+}
+
 public var previousPage: pages!
 public var currentPage: pages!
+
+public var showingSideMenu = false
+
+public var monumenten: [Test] = []

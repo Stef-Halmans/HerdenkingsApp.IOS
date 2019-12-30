@@ -9,14 +9,14 @@
 import UIKit
 
 class AlleGebiedenPage: PageController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
+        
+        
     }
     
-
-
-
+    
+    
+    
 }
