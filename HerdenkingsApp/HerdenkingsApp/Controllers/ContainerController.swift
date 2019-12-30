@@ -67,8 +67,23 @@ class ContainerController: UIViewController{
     
     
     @IBAction func backButtonPressed(_ sender: Any){
-        changePage(page: previousPage)
-    }
+        switch currentPage{
+        case .specificGebiedPage?:
+            changePage(page: .alleGebiedenPage)
+        case .monumentenPage?:
+            changePage(page: .specificGebiedPage)
+        case .mainPage?:
+            changePage(page: .mainPage)
+        case .alleGebiedenPage?:
+            changePage(page: .mainPage)
+        case .geschiedenisPage?:
+            changePage(page: .mainPage)
+        case .none:
+            break
+        }
+        
+
+        }
     
     func  configureNavigationBar() {
         if(currentPage != .mainPage){
