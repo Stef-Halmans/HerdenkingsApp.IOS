@@ -22,10 +22,10 @@ public class Monument : Codable{
     var regio: String
     var imageFilename: String
     var description: String
-    var longitude: String
-    var latitude: String
+    var longitude: Double
+    var latitude: Double
     
-    init(title: String, regio: String, imageFilename: String, description: String, longitude: String, latitude: String) {
+    init(title: String, regio: String, imageFilename: String, description: String, longitude: Double, latitude: Double) {
         self.title = title
         self.regio = regio
         self.imageFilename = imageFilename
