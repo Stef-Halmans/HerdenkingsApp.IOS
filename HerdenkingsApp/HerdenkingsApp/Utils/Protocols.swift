@@ -8,12 +8,6 @@
 import Foundation
 import UIKit
 
-@objc protocol ContainerButtonDelegate{
-    
-    var test: String { get }
-    @objc func werkt()
-}
-
 protocol ContainerControllerDelegate{
     
     func changePage(page: pages)

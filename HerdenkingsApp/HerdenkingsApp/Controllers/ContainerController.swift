@@ -51,7 +51,6 @@ class ContainerController: UIViewController{
         }
         
         centerPageController.containerDelegate = self
-        centerPageController.containerButtonDelegate = self
         
         configureNavigationBar()
         
@@ -121,7 +120,6 @@ class ContainerController: UIViewController{
         sideMenuController.modalPresentationStyle = .overCurrentContext
         sideMenuController.transitioningDelegate = self
         sideMenuController.containerDelegate = self
-        transition.containerButtonDelegate = self
         transition.containerControllerDelegate = self
 
         present(sideMenuController, animated: true)

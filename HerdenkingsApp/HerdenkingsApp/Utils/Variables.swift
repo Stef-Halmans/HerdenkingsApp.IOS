@@ -26,4 +26,4 @@ public var currentPage: pages!
 
 public var showingSideMenu = false
 
-public var monumenten: [Test] = []
+public var monumenten: [Monument] = []

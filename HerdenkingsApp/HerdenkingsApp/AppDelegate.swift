@@ -25,29 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.makeKeyAndVisible()
         containerController.window = self.window
         
-        //        let path = Bundle.main.path(forResource: "monumenten", ofType: "json")
-        //        let url = URL(fileURLWithPath: path!)
-        //        do{
-        //            let data = try Data(contentsOf: url)
-        //            //let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
-        //            //let jsonData = json as? String
-        //          //  print(json)
-        //            monumenten = LoadData.LoadMonumenten(jsonFile: data)
-        //        }
-        //        catch{
-        //            print(error)
-        //        }
-        //        //print(monumenten[0].title)
-        
-        
-        
-        
-        //        if let asset = NSDataAsset(name: "monumenten"){
-        //           // let assetData = asset.data
-        //            //let d = String(data: assetData, encoding: String.Encoding.utf8)
-        //            monumenten = LoadData.LoadMonumenten(jsonFile: asset)
-        //        }
-        
+        monumenten = LoadData.LoadMonumenten(fileName: "monumenten", fileType: "json")
         
         return true
     }

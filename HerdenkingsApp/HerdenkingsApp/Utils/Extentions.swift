@@ -11,7 +11,6 @@ import UIKit
 extension ContainerController : ContainerControllerDelegate{
     
     func changePage(page: pages) {
-        // animateSideMenu(expand: false)
         dismiss(animated: true)
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2){
             previousPage = currentPage
@@ -30,31 +29,9 @@ extension ContainerController : ContainerControllerDelegate{
          if(showingSideMenu){
               dismiss(animated: true)
           }
-        
-    }
-    
-    
+    }    
 }
 
-extension ContainerController : ContainerButtonDelegate{
-    var test: String {
-        get{
-            return tests
-        }
-        set(newValue){
-            self.tests = newValue
-        }
-    }
-    
-    @objc func werkt(){
-        print("werkt")
-    }
-    
-
-    
-
-    
-}
 
 extension UIStoryboard{
     static func mainStoryboard() -> UIStoryboard{return UIStoryboard(name: "Main", bundle: Bundle.main)}
