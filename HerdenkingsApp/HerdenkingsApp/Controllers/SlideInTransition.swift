@@ -11,8 +11,7 @@ import UIKit
 class SlideInTransition: NSObject, UIViewControllerAnimatedTransitioning {
 
     let dimmingView = UIView()
-    var containerButtonDelegate: ContainerButtonDelegate?
-    var containerControllerDelegate: ContainerControllerDelegate?
+    var containerControllerDelegate: ContainerControllerDelegate? 
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.3
@@ -37,16 +36,11 @@ class SlideInTransition: NSObject, UIViewControllerAnimatedTransitioning {
             containerView.addSubview(dimmingView)
             dimmingView.frame = containerView.bounds
             containerView.addSubview(toViewController.view)
-            
 
-            button.setTitle("Test", for: UIControlState.normal)
             button.frame = CGRect(x: 0, y: 0, width: toViewController.view.bounds.width * 0.3, height: toViewController.view.bounds.height)
-            button.backgroundColor = .blue
             button.addTarget(self, action: #selector(ButtonPressed(_:)), for: .touchUpInside)
 
             containerView.addSubview(button)
-            
-            print()
             
             toViewController.view.frame = CGRect(x: toViewController.view.bounds.width , y: 0, width: finalWidth, height: finalHeight)
         }
@@ -82,6 +76,4 @@ class SlideInTransition: NSObject, UIViewControllerAnimatedTransitioning {
         containerControllerDelegate?.HideDetailPage()
     }
 
-    
-    
 }

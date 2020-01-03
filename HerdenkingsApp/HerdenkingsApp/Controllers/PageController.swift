@@ -11,7 +11,6 @@ import UIKit
 class PageController: UIViewController {
     
     var containerDelegate: ContainerControllerDelegate!
-    var containerButtonDelegate: ContainerButtonDelegate!
     //@IBOutlet weak var HideSideMenuButton: UIButton!
     
     override func viewDidLoad() {

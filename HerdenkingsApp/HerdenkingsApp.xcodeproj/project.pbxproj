@@ -11,6 +11,7 @@
 		D90A1FC82382FD890058828A /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A1FC72382FD890058828A /* SideMenuController.swift */; };
 		D90A1FCB238319E40058828A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A1FCA238319E40058828A /* Protocols.swift */; };
 		D90F7ED82384630600A8DB7D /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F7ED72384630600A8DB7D /* Extentions.swift */; };
+		D91139C423BF88CD0084F490 /* monumenten.json in Resources */ = {isa = PBXBuildFile; fileRef = D91139C323BF88CD0084F490 /* monumenten.json */; };
 		D92F04C223B969E400D0CBE9 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C123B969E400D0CBE9 /* SlideInTransition.swift */; };
 		D92F04C523B96A7100D0CBE9 /* Monument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C423B96A7100D0CBE9 /* Monument.swift */; };
 		D92F04C723B96A8B00D0CBE9 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C623B96A8B00D0CBE9 /* LoadData.swift */; };
@@ -52,6 +53,7 @@
 		D90A1FC72382FD890058828A /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
 		D90A1FCA238319E40058828A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		D90F7ED72384630600A8DB7D /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		D91139C323BF88CD0084F490 /* monumenten.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monumenten.json; sourceTree = "<group>"; };
 		D92F04C123B969E400D0CBE9 /* SlideInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		D92F04C423B96A7100D0CBE9 /* Monument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monument.swift; sourceTree = "<group>"; };
 		D92F04C623B96A8B00D0CBE9 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 		D9E1D42523808AB500FDBA2B /* HerdenkingsApp */ = {
 			isa = PBXGroup;
 			children = (
+				D91139C323BF88CD0084F490 /* monumenten.json */,
 				D92F04C323B96A5F00D0CBE9 /* Classes */,
 				D90A1FC9238319CD0058828A /* Utils */,
 				D90A1FC42382FCB60058828A /* Controllers */,
@@ -304,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9E1D43423808AB500FDBA2B /* LaunchScreen.storyboard in Resources */,
+				D91139C423BF88CD0084F490 /* monumenten.json in Resources */,
 				D9E1D43123808AB500FDBA2B /* Assets.xcassets in Resources */,
 				D92F04C923B96AAC00D0CBE9 /* Main.storyboard in Resources */,
 			);

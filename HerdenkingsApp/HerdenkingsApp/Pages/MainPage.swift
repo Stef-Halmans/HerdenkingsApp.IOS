@@ -15,15 +15,13 @@ class MainPage : PageController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
         
     }
     
     @IBAction func GeschiedenisButtonPressed(_ sender: Any) {
-        print("test")
         containerDelegate.changePage(page: .geschiedenisPage)
     }
+    
     @IBAction func MonumentenPageButtonPressed(_ sender: Any) {
         containerDelegate.changePage(page: .alleGebiedenPage)
     }

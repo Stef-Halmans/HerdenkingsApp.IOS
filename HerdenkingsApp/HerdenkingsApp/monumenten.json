@@ -1,0 +1,18 @@
+
+[
+    {"imageFilename":"kerkRoermond",
+    "regio":"roermond",
+    "title": "Kerk van Roermond",
+    "description": "Dit is een mooie kerk"
+    "longitude": "124234213"
+    "latitude": "123423423"
+    },
+    {"imageFilename":"indiemonument",
+    "regio":"roermond",
+    "title": "indië monument",
+    "description": "Dit is een mooi monument"
+    "longitude": "124234213"
+    "latitude": "123423423"
+    }
+  ]
+
