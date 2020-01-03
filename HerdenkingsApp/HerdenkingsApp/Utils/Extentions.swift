@@ -25,16 +25,35 @@ extension ContainerController : ContainerControllerDelegate{
         }
     }
     
+    func HideDetailPage(){
+        print("hideDetailPage")
+         if(showingSideMenu){
+              dismiss(animated: true)
+          }
+        
+    }
+    
     
 }
 
 extension ContainerController : ContainerButtonDelegate{
-    @objc func HideDetailPage(_ sender: UIGestureRecognizer){
-        print("hideDetailPage")
-        if(showingSideMenu){
-            dismiss(animated: true)
+    var test: String {
+        get{
+            return tests
+        }
+        set(newValue){
+            self.tests = newValue
         }
     }
+    
+    @objc func werkt(){
+        print("werkt")
+    }
+    
+
+    
+
+    
 }
 
 extension UIStoryboard{
