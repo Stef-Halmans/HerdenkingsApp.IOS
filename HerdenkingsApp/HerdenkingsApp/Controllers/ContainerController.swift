@@ -23,6 +23,8 @@ class ContainerController: UIViewController{
     
     let transition = SlideInTransition()
     
+    var tests: String = "test"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -60,6 +62,8 @@ class ContainerController: UIViewController{
         addChildViewController(centerNavigationController)
         centerNavigationController.didMove(toParentViewController: self)
         
+        
+
         
     }
     
@@ -118,8 +122,12 @@ class ContainerController: UIViewController{
         sideMenuController.transitioningDelegate = self
         sideMenuController.containerDelegate = self
         transition.containerButtonDelegate = self
+        transition.containerControllerDelegate = self
+
         present(sideMenuController, animated: true)
+        
     }
+
     
     
 }

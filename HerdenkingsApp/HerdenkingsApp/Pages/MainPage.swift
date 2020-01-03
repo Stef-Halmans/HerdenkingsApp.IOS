@@ -11,11 +11,11 @@ import UIKit
 class MainPage : PageController {
     
     
+    @IBOutlet weak var Button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let gesture = UIGestureRecognizer(target: self, action: #selector(containerButtonDelegate!.HideDetailPage(_:)))
-        self.view.addGestureRecognizer(gesture)
+
         
         
     }
@@ -23,8 +23,12 @@ class MainPage : PageController {
         containerDelegate?.changePage(page: pages.geschiedenisPage)
     }
     
-    @IBAction func MonumentenButton(_ sender: UIButton) {
-        containerDelegate?.changePage(page: pages.alleGebiedenPage)
+    @IBAction func GeschiedenisButtonPressed(_ sender: Any) {
+        print("test")
+        containerDelegate.changePage(page: .geschiedenisPage)
+    }
+    @IBAction func MonumentenPageButtonPressed(_ sender: Any) {
+        containerDelegate.changePage(page: .alleGebiedenPage)
     }
 }
 
