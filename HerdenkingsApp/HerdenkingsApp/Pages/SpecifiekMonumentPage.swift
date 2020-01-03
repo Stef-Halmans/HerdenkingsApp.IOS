@@ -1,5 +1,5 @@
 //
-//  SpecificRegioPage.swift
+//  MonumentenPage.swift
 //  HerdenkingsApp
 //
 //  Created by Stef Halmans on 11/17/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SpecificGebiedPage: PageController {
+class SpecifiekMonumentPage: PageController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

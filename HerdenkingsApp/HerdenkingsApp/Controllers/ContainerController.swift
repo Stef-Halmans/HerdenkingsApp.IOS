@@ -38,12 +38,12 @@ class ContainerController: UIViewController{
         switch page {
         case .mainPage?:
             centerPageController = UIStoryboard.mainPage()
-        case .alleGebiedenPage?:
-            centerPageController = UIStoryboard.alleGebiedenPage()
-        case .specificGebiedPage?:
-            centerPageController = UIStoryboard.specificGebiedPage()
-        case .monumentenPage?:
-            centerPageController = UIStoryboard.monumentenPage()
+        case .kiesGebiedPage?:
+            centerPageController = UIStoryboard.kiesGebiedPage()
+        case .lijstMonumentenPage?:
+            centerPageController = UIStoryboard.lijstMonumentenPage()
+        case .specifiekMonumentPage?:
+            centerPageController = UIStoryboard.specifiekMonumentPage()
         case .geschiedenisPage?:
             centerPageController = UIStoryboard.GeschiedenisPage()
         case .none:
@@ -71,13 +71,13 @@ class ContainerController: UIViewController{
     
     @IBAction func backButtonPressed(_ sender: Any){
         switch currentPage{
-        case .specificGebiedPage?:
-            changePage(page: .alleGebiedenPage)
-        case .monumentenPage?:
-            changePage(page: .specificGebiedPage)
+        case .lijstMonumentenPage?:
+            changePage(page: .kiesGebiedPage)
+        case .specifiekMonumentPage?:
+            changePage(page: .lijstMonumentenPage)
         case .mainPage?:
             changePage(page: .mainPage)
-        case .alleGebiedenPage?:
+        case .kiesGebiedPage?:
             changePage(page: .mainPage)
         case .geschiedenisPage?:
             changePage(page: .mainPage)

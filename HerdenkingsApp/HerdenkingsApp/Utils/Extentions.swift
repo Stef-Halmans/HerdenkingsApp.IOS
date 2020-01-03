@@ -44,16 +44,16 @@ extension UIStoryboard{
         return mainStoryboard().instantiateViewController(withIdentifier: "MainPage") as? MainPage
     }
     
-    static func alleGebiedenPage() -> AlleGebiedenPage? {
-        return mainStoryboard().instantiateViewController(withIdentifier:"AlleGebiedenPage") as? AlleGebiedenPage
+    static func kiesGebiedPage() -> KiesGebiedPage? {
+        return mainStoryboard().instantiateViewController(withIdentifier:"KiesGebiedPage") as? KiesGebiedPage
     }
     
-    static func specificGebiedPage() -> SpecificGebiedPage? {
-        return mainStoryboard().instantiateViewController(withIdentifier:"SpecificGebiedPage") as? SpecificGebiedPage
+    static func lijstMonumentenPage() -> LijstMonumentenPage? {
+        return mainStoryboard().instantiateViewController(withIdentifier:"LijstMonumentenPage") as? LijstMonumentenPage
     }
     
-    static func monumentenPage() -> MonumentenPage? {
-        return mainStoryboard().instantiateViewController(withIdentifier:"MonumentenPage") as? MonumentenPage
+    static func specifiekMonumentPage() -> SpecifiekMonumentPage? {
+        return mainStoryboard().instantiateViewController(withIdentifier:"SpecifiekMonumentPage") as? SpecifiekMonumentPage
     }
     
     static func GeschiedenisPage() -> GeschiedenisPage? {

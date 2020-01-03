@@ -18,11 +18,11 @@
 		D92F04C923B96AAC00D0CBE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92F04C823B96AAC00D0CBE9 /* Main.storyboard */; };
 		D983122B2385B1E100199788 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983122A2385B1E100199788 /* PageController.swift */; };
 		D983122D2385B35F00199788 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983122C2385B35F00199788 /* Variables.swift */; };
-		D9DE34152381F9BF00D7DF99 /* AlleGebiedenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE34102381F9BF00D7DF99 /* AlleGebiedenPage.swift */; };
+		D9DE34152381F9BF00D7DF99 /* KiesGebiedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE34102381F9BF00D7DF99 /* KiesGebiedPage.swift */; };
 		D9DE34162381F9BF00D7DF99 /* GeschiedenisPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE34112381F9BF00D7DF99 /* GeschiedenisPage.swift */; };
 		D9DE34172381F9BF00D7DF99 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE34122381F9BF00D7DF99 /* MainPage.swift */; };
-		D9DE34192381F9BF00D7DF99 /* SpecificGebiedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE34142381F9BF00D7DF99 /* SpecificGebiedPage.swift */; };
-		D9DE341B2381FAA600D7DF99 /* MonumentenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE341A2381FAA600D7DF99 /* MonumentenPage.swift */; };
+		D9DE34192381F9BF00D7DF99 /* LijstMonumentenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE34142381F9BF00D7DF99 /* LijstMonumentenPage.swift */; };
+		D9DE341B2381FAA600D7DF99 /* SpecifiekMonumentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE341A2381FAA600D7DF99 /* SpecifiekMonumentPage.swift */; };
 		D9E1D42723808AB500FDBA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D42623808AB500FDBA2B /* AppDelegate.swift */; };
 		D9E1D42F23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9E1D42D23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld */; };
 		D9E1D43123808AB500FDBA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E1D43023808AB500FDBA2B /* Assets.xcassets */; };
@@ -60,11 +60,11 @@
 		D92F04C823B96AAC00D0CBE9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D983122A2385B1E100199788 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		D983122C2385B35F00199788 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
-		D9DE34102381F9BF00D7DF99 /* AlleGebiedenPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlleGebiedenPage.swift; sourceTree = "<group>"; };
+		D9DE34102381F9BF00D7DF99 /* KiesGebiedPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KiesGebiedPage.swift; sourceTree = "<group>"; };
 		D9DE34112381F9BF00D7DF99 /* GeschiedenisPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeschiedenisPage.swift; sourceTree = "<group>"; };
 		D9DE34122381F9BF00D7DF99 /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
-		D9DE34142381F9BF00D7DF99 /* SpecificGebiedPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificGebiedPage.swift; sourceTree = "<group>"; };
-		D9DE341A2381FAA600D7DF99 /* MonumentenPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentenPage.swift; sourceTree = "<group>"; };
+		D9DE34142381F9BF00D7DF99 /* LijstMonumentenPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LijstMonumentenPage.swift; sourceTree = "<group>"; };
+		D9DE341A2381FAA600D7DF99 /* SpecifiekMonumentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecifiekMonumentPage.swift; sourceTree = "<group>"; };
 		D9E1D42323808AB500FDBA2B /* HerdenkingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerdenkingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E1D42623808AB500FDBA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9E1D42E23808AB500FDBA2B /* HerdenkingsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HerdenkingsApp.xcdatamodel; sourceTree = "<group>"; };
@@ -125,13 +125,6 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		D91139C523BF92C80084F490 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		D92F04C323B96A5F00D0CBE9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,9 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				D9DE34122381F9BF00D7DF99 /* MainPage.swift */,
-				D9DE34102381F9BF00D7DF99 /* AlleGebiedenPage.swift */,
-				D9DE34142381F9BF00D7DF99 /* SpecificGebiedPage.swift */,
-				D9DE341A2381FAA600D7DF99 /* MonumentenPage.swift */,
+				D9DE34102381F9BF00D7DF99 /* KiesGebiedPage.swift */,
+				D9DE34142381F9BF00D7DF99 /* LijstMonumentenPage.swift */,
+				D9DE341A2381FAA600D7DF99 /* SpecifiekMonumentPage.swift */,
 				D9DE34112381F9BF00D7DF99 /* GeschiedenisPage.swift */,
 			);
 			path = Pages;
@@ -177,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				D91139C323BF88CD0084F490 /* monumenten.json */,
-				D91139C523BF92C80084F490 /* Data */,
 				D92F04C323B96A5F00D0CBE9 /* Classes */,
 				D90A1FC9238319CD0058828A /* Utils */,
 				D90A1FC42382FCB60058828A /* Controllers */,
@@ -342,12 +334,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DE341B2381FAA600D7DF99 /* MonumentenPage.swift in Sources */,
+				D9DE341B2381FAA600D7DF99 /* SpecifiekMonumentPage.swift in Sources */,
 				D90A1FC82382FD890058828A /* SideMenuController.swift in Sources */,
-				D9DE34192381F9BF00D7DF99 /* SpecificGebiedPage.swift in Sources */,
+				D9DE34192381F9BF00D7DF99 /* LijstMonumentenPage.swift in Sources */,
 				D92F04C723B96A8B00D0CBE9 /* LoadData.swift in Sources */,
 				D90A1FCB238319E40058828A /* Protocols.swift in Sources */,
-				D9DE34152381F9BF00D7DF99 /* AlleGebiedenPage.swift in Sources */,
+				D9DE34152381F9BF00D7DF99 /* KiesGebiedPage.swift in Sources */,
 				D90A1FC62382FCD30058828A /* ContainerController.swift in Sources */,
 				D92F04C523B96A7100D0CBE9 /* Monument.swift in Sources */,
 				D90F7ED82384630600A8DB7D /* Extentions.swift in Sources */,

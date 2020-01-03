@@ -179,7 +179,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Regio's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="deJ-Nz-6rg">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Gebieden" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="deJ-Nz-6rg">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="43.666666666666664"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -196,7 +196,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Monument" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4VV-fN-Esy">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Alle monumenten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4VV-fN-Esy">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="43.666666666666664"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -236,10 +236,10 @@
             </objects>
             <point key="canvasLocation" x="2124" y="756.97151424287858"/>
         </scene>
-        <!--Monumenten Page-->
+        <!--Specifiek Monument Page-->
         <scene sceneID="T6d-RL-8SP">
             <objects>
-                <viewController storyboardIdentifier="MonumentenPage" id="tbV-C6-Pzw" customClass="MonumentenPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SpecifiekMonumentPage" id="tbV-C6-Pzw" customClass="SpecifiekMonumentPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K7a-1F-tuB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -321,7 +321,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bu9-ny-UG8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2165.217391304348" y="1450.271739130435"/>
+            <point key="canvasLocation" x="1161" y="2867"/>
         </scene>
         <!--Geschiedenis Page-->
         <scene sceneID="mno-yn-VkL">
@@ -391,10 +391,10 @@
             </objects>
             <point key="canvasLocation" x="3128.985507246377" y="1449.4565217391305"/>
         </scene>
-        <!--Alle Gebieden Page-->
+        <!--Kies Gebied Page-->
         <scene sceneID="fcp-VM-TM6">
             <objects>
-                <viewController storyboardIdentifier="AlleGebiedenPage" id="mAq-WH-oNZ" customClass="AlleGebiedenPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KiesGebiedPage" id="mAq-WH-oNZ" customClass="KiesGebiedPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vPp-58-Rp9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -444,16 +444,16 @@
             </objects>
             <point key="canvasLocation" x="1159.4202898550725" y="1450.271739130435"/>
         </scene>
-        <!--Specific Gebied Page-->
+        <!--Lijst Monumenten Page-->
         <scene sceneID="QFe-gk-35T">
             <objects>
-                <viewController storyboardIdentifier="SpecificGebiedPage" id="aG6-Sk-zue" customClass="SpecificGebiedPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LijstMonumentenPage" id="aG6-Sk-zue" customClass="LijstMonumentenPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rrh-wH-lpK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Regio Naam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV9-3Y-aHn">
-                                <rect key="frame" x="58" y="303" width="259" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lijst Monumenten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV9-3Y-aHn">
+                                <rect key="frame" x="30" y="338" width="380" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>

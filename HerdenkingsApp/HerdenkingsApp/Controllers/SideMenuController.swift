@@ -22,10 +22,11 @@ class SideMenuController: UITableViewController{
             containerDelegate.changePage(page: .mainPage)
         }
         else if( indexPath.item == 1){
-            containerDelegate.changePage(page: .alleGebiedenPage)
+            containerDelegate.changePage(page: .kiesGebiedPage)
         }
         else if(indexPath.item == 2){
-            containerDelegate.changePage(page: .monumentenPage)
+            currentGebied = .alleGebieden
+            containerDelegate.changePage(page: .lijstMonumentenPage)
         }
         else if(indexPath.item == 3){
             containerDelegate.changePage(page: .geschiedenisPage)

@@ -10,9 +10,6 @@ import UIKit
 
 class MainPage : PageController {
     
-    
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,7 +21,7 @@ class MainPage : PageController {
     }
     
     @IBAction func MonumentenPageButtonPressed(_ sender: Any) {
-        containerDelegate.changePage(page: .alleGebiedenPage)
+        containerDelegate.changePage(page: .kiesGebiedPage)
     }
 }
 

@@ -11,14 +11,11 @@ import UIKit
 class PageController: UIViewController {
     
     var containerDelegate: ContainerControllerDelegate!
-    //@IBOutlet weak var HideSideMenuButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-    //@IBAction func Test(_ sender: Any) {
-    //    print(" button pressed")
-    //}
+
     
 }

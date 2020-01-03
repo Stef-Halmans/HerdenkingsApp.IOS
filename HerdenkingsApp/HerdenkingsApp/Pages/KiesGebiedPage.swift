@@ -1,5 +1,5 @@
 //
-//  MonumentenPage.swift
+//  RegioPage.swift
 //  HerdenkingsApp
 //
 //  Created by Stef Halmans on 11/17/19.
@@ -8,16 +8,15 @@
 
 import UIKit
 
-class MonumentenPage: PageController {
-
+class KiesGebiedPage: PageController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
+        
+        
     }
-
-
     
-
-
+    
+    
+    
 }

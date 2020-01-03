@@ -1,5 +1,5 @@
 //
-//  RegioPage.swift
+//  SpecificRegioPage.swift
 //  HerdenkingsApp
 //
 //  Created by Stef Halmans on 11/17/19.
@@ -8,15 +8,16 @@
 
 import UIKit
 
-class AlleGebiedenPage: PageController {
-    
+class LijstMonumentenPage: PageController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
+
     }
+
+
     
-    
-    
-    
+
+
 }

@@ -7,9 +7,9 @@
 //
 public enum pages{
     case mainPage
-    case alleGebiedenPage
-    case specificGebiedPage
-    case monumentenPage
+    case kiesGebiedPage
+    case lijstMonumentenPage
+    case specifiekMonumentPage
     case geschiedenisPage
 }
 
@@ -19,7 +19,10 @@ public enum gebieden{
     case swalmen
     case maasniel
     case asenray
+    case alleGebieden
 }
+
+public var currentGebied: gebieden!
 
 public var previousPage: pages!
 public var currentPage: pages!
