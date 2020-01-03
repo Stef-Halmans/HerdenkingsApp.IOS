@@ -11,15 +11,13 @@ import UIKit
 class MainPage : PageController {
     
     
-    @IBOutlet weak var Button: UIButton!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-    @IBAction func GeschiedenisButton(_ sender: UIButton, forEvent event: UIEvent) {
-        containerDelegate?.changePage(page: pages.geschiedenisPage)
-    }
+
     
     @IBAction func GeschiedenisButtonPressed(_ sender: Any) {
         containerDelegate.changePage(page: .geschiedenisPage)
