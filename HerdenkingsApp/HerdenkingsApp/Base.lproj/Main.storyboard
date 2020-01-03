@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="4624" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,29 +13,35 @@
             <objects>
                 <viewController storyboardIdentifier="MainPage" id="BYZ-38-t0r" customClass="MainPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IfZ-Xa-tB0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ql-Cj-SIf">
-                                <rect key="frame" x="0.0" y="625" width="375" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ql-Cj-SIf">
+                                <rect key="frame" x="0.0" y="694" width="414" height="42"/>
                                 <color key="backgroundColor" red="0.1215686275" green="0.23137254900000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" red="0.1215686275" green="0.23137254900000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Monumenten">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="MonumentenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lM8-iK-VFE"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPC-Rb-M06">
-                                <rect key="frame" x="0.0" y="575" width="375" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPC-Rb-M06">
+                                <rect key="frame" x="0.0" y="644" width="414" height="42"/>
                                 <color key="backgroundColor" red="0.1215686275" green="0.23137254900000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" red="0.1215686275" green="0.23137254900000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Geschiedenis">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="GeschiedenisButton:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AJO-H3-R9s"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Herdenking Roermond" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqE-YG-oDh">
-                                <rect key="frame" x="20" y="251" width="335" height="31"/>
+                                <rect key="frame" x="20" y="273" width="374" height="34.333333333333314"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cqE-YG-oDh" secondAttribute="height" multiplier="163:15" id="a6P-AC-Xff"/>
                                 </constraints>
@@ -44,56 +50,49 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Foto_Beginpagina" translatesAutoresizingMaskIntoConstraints="NO" id="tih-ap-6nc">
-                                <rect key="frame" x="20" y="54" width="335" height="189"/>
+                                <rect key="frame" x="20" y="54" width="374" height="211"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tih-ap-6nc" secondAttribute="height" multiplier="335:189" id="2Xo-bi-Lkq"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line divider" translatesAutoresizingMaskIntoConstraints="NO" id="KN1-Hx-8jd">
-                                <rect key="frame" x="20" y="282" width="335" height="17"/>
+                                <rect key="frame" x="20" y="307.33333333333331" width="374" height="19"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="KN1-Hx-8jd" secondAttribute="height" multiplier="374:19" id="7Tb-U4-jKP"/>
                                 </constraints>
                             </imageView>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2g9-lc-uYL">
-                                <rect key="frame" x="35" y="427" width="369" height="361"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIi-au-LiD">
-                                        <rect key="frame" x="0.0" y="0.0" width="369" height="361"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zDQ-oF-Uws">
+                                <rect key="frame" x="20" y="334.33333333333326" width="374" height="301.66666666666674"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cqE-YG-oDh" firstAttribute="centerX" secondItem="jKj-Gu-wmN" secondAttribute="centerX" id="0jv-oN-0yU"/>
                             <constraint firstItem="tih-ap-6nc" firstAttribute="leading" secondItem="jKj-Gu-wmN" secondAttribute="leading" constant="20" id="1i0-Sg-5cw"/>
                             <constraint firstItem="jKj-Gu-wmN" firstAttribute="trailing" secondItem="tih-ap-6nc" secondAttribute="trailing" constant="20" id="2LK-bA-nzU"/>
-                            <constraint firstItem="jPC-Rb-M06" firstAttribute="trailing" secondItem="jKj-Gu-wmN" secondAttribute="trailing" id="2fm-lB-hRJ"/>
                             <constraint firstItem="cqE-YG-oDh" firstAttribute="top" secondItem="tih-ap-6nc" secondAttribute="bottom" constant="8" id="48y-pY-5iU"/>
-                            <constraint firstItem="jPC-Rb-M06" firstAttribute="leading" secondItem="jKj-Gu-wmN" secondAttribute="leading" id="6dU-jP-q4q"/>
-                            <constraint firstItem="2g9-lc-uYL" firstAttribute="leading" secondItem="jKj-Gu-wmN" secondAttribute="leading" constant="30" id="Acf-ES-l8L"/>
-                            <constraint firstItem="4ql-Cj-SIf" firstAttribute="top" secondItem="jPC-Rb-M06" secondAttribute="bottom" constant="8" id="E8G-jG-Hag"/>
-                            <constraint firstItem="jPC-Rb-M06" firstAttribute="centerX" secondItem="IfZ-Xa-tB0" secondAttribute="centerX" id="FI5-2j-iqr"/>
+                            <constraint firstItem="jPC-Rb-M06" firstAttribute="leading" secondItem="jKj-Gu-wmN" secondAttribute="leading" id="AVO-VJ-0NF"/>
+                            <constraint firstItem="jKj-Gu-wmN" firstAttribute="trailing" secondItem="zDQ-oF-Uws" secondAttribute="trailing" constant="20" id="BtB-6M-VbF"/>
+                            <constraint firstItem="4ql-Cj-SIf" firstAttribute="bottom" secondItem="jKj-Gu-wmN" secondAttribute="bottom" id="CX0-SL-tCD"/>
+                            <constraint firstItem="4ql-Cj-SIf" firstAttribute="trailing" secondItem="jKj-Gu-wmN" secondAttribute="trailing" id="Eb8-nj-NdU"/>
+                            <constraint firstItem="4ql-Cj-SIf" firstAttribute="top" secondItem="jPC-Rb-M06" secondAttribute="bottom" constant="8" id="EbZ-7E-57r"/>
                             <constraint firstItem="KN1-Hx-8jd" firstAttribute="width" secondItem="tih-ap-6nc" secondAttribute="width" id="H5J-Ah-iJD"/>
                             <constraint firstItem="KN1-Hx-8jd" firstAttribute="centerX" secondItem="tih-ap-6nc" secondAttribute="centerX" id="KNP-Fe-rww"/>
                             <constraint firstItem="KN1-Hx-8jd" firstAttribute="top" secondItem="cqE-YG-oDh" secondAttribute="bottom" id="Lp2-AV-4zd"/>
-                            <constraint firstItem="4ql-Cj-SIf" firstAttribute="leading" secondItem="jKj-Gu-wmN" secondAttribute="leading" id="M88-zf-HWG"/>
-                            <constraint firstItem="jPC-Rb-M06" firstAttribute="top" secondItem="2g9-lc-uYL" secondAttribute="bottom" constant="8" id="OX3-tr-HMS"/>
-                            <constraint firstItem="4ql-Cj-SIf" firstAttribute="bottom" secondItem="jKj-Gu-wmN" secondAttribute="bottom" id="PX3-Wq-479"/>
+                            <constraint firstItem="zDQ-oF-Uws" firstAttribute="leading" secondItem="jKj-Gu-wmN" secondAttribute="leading" constant="20" id="MHn-mH-ORa"/>
                             <constraint firstItem="tih-ap-6nc" firstAttribute="centerX" secondItem="jKj-Gu-wmN" secondAttribute="centerX" id="R1R-mg-LHm"/>
-                            <constraint firstItem="4ql-Cj-SIf" firstAttribute="centerX" secondItem="IfZ-Xa-tB0" secondAttribute="centerX" id="WCq-6c-6CR"/>
+                            <constraint firstItem="jPC-Rb-M06" firstAttribute="top" secondItem="zDQ-oF-Uws" secondAttribute="bottom" constant="8" id="SfP-IJ-j4Q"/>
                             <constraint firstItem="jKj-Gu-wmN" firstAttribute="trailing" secondItem="cqE-YG-oDh" secondAttribute="trailing" constant="20" id="cd8-Sz-F1Q"/>
-                            <constraint firstItem="jKj-Gu-wmN" firstAttribute="trailing" secondItem="2g9-lc-uYL" secondAttribute="trailing" constant="30" id="eCi-S3-SUO"/>
-                            <constraint firstItem="2g9-lc-uYL" firstAttribute="top" secondItem="KN1-Hx-8jd" secondAttribute="bottom" constant="8" id="h2A-Zm-4OT"/>
                             <constraint firstItem="tih-ap-6nc" firstAttribute="top" secondItem="jKj-Gu-wmN" secondAttribute="top" constant="10" id="j0I-Mb-k8F"/>
+                            <constraint firstItem="4ql-Cj-SIf" firstAttribute="leading" secondItem="jKj-Gu-wmN" secondAttribute="leading" id="keo-HM-ruv"/>
+                            <constraint firstItem="jPC-Rb-M06" firstAttribute="trailing" secondItem="jKj-Gu-wmN" secondAttribute="trailing" id="oem-I1-Jti"/>
                             <constraint firstItem="cqE-YG-oDh" firstAttribute="leading" secondItem="jKj-Gu-wmN" secondAttribute="leading" constant="20" id="rUZ-Qc-lCH"/>
-                            <constraint firstItem="4ql-Cj-SIf" firstAttribute="trailing" secondItem="jKj-Gu-wmN" secondAttribute="trailing" id="x8n-4N-UfH"/>
+                            <constraint firstItem="zDQ-oF-Uws" firstAttribute="top" secondItem="KN1-Hx-8jd" secondAttribute="bottom" constant="8" id="xwK-xl-HRp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jKj-Gu-wmN"/>
                     </view>
@@ -103,14 +102,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1155.072463768116" y="773.64130434782612"/>
+            <point key="canvasLocation" x="1154.4000000000001" y="772.90640394088678"/>
         </scene>
         <!--Side Menu Controller-->
         <scene sceneID="8U8-Ad-6c6">
             <objects>
                 <viewController storyboardIdentifier="SideMenuController" title="Side Menu Controller" id="xQs-tT-B0Z" customClass="SideMenuController" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Bq-SX-Wri">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Side Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITi-ki-qDf">
@@ -142,7 +141,7 @@
             <objects>
                 <viewController storyboardIdentifier="MonumentenPage" id="tbV-C6-Pzw" customClass="MonumentenPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K7a-1F-tuB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monumenten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kkg-cv-StK">
@@ -168,7 +167,7 @@
             <objects>
                 <viewController storyboardIdentifier="GeschiedenisPage" id="yjg-c5-dax" customClass="GeschiedenisPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="05E-c0-EJl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Geschiedenis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uW-Nd-y3x">
@@ -194,18 +193,36 @@
             <objects>
                 <viewController storyboardIdentifier="AlleGebiedenPage" id="mAq-WH-oNZ" customClass="AlleGebiedenPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vPp-58-Rp9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Regio's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7d-zY-TFQ">
-                                <rect key="frame" x="109" y="303" width="156" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_20191017_163414" translatesAutoresizingMaskIntoConstraints="NO" id="1IQ-hb-qE1">
+                                <rect key="frame" x="20" y="55" width="374" height="131.00000000000023"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1IQ-hb-qE1" secondAttribute="height" multiplier="374:131" id="mZw-kq-Uhv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roermond" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsd-Ok-qbc">
+                                <rect key="frame" x="20" y="193" width="374" height="21"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1IQ-hb-qE1" firstAttribute="top" secondItem="rWU-cm-eLF" secondAttribute="top" constant="11" id="2aK-Qw-Uq7"/>
+                            <constraint firstItem="1IQ-hb-qE1" firstAttribute="leading" secondItem="rWU-cm-eLF" secondAttribute="leading" constant="20" id="4tz-99-OHg"/>
+                            <constraint firstItem="bsd-Ok-qbc" firstAttribute="top" secondItem="1IQ-hb-qE1" secondAttribute="bottom" constant="7" id="8je-6s-VFT"/>
+                            <constraint firstItem="1IQ-hb-qE1" firstAttribute="centerX" secondItem="rWU-cm-eLF" secondAttribute="centerX" id="ASv-gA-1lX"/>
+                            <constraint firstItem="bsd-Ok-qbc" firstAttribute="width" secondItem="1IQ-hb-qE1" secondAttribute="width" id="DKv-bp-uER"/>
+                            <constraint firstItem="bsd-Ok-qbc" firstAttribute="leading" secondItem="rWU-cm-eLF" secondAttribute="leading" constant="20" id="J6z-k4-rCL"/>
+                            <constraint firstItem="rWU-cm-eLF" firstAttribute="trailing" secondItem="1IQ-hb-qE1" secondAttribute="trailing" constant="20" id="NVa-aZ-ZMY"/>
+                            <constraint firstItem="rWU-cm-eLF" firstAttribute="trailing" secondItem="bsd-Ok-qbc" secondAttribute="trailing" constant="20" id="ZW5-Sy-BqM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rWU-cm-eLF"/>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -213,14 +230,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LBk-jL-TN1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1161" y="1451"/>
+            <point key="canvasLocation" x="1159.4202898550725" y="1449.4565217391305"/>
         </scene>
         <!--Specific Gebied Page-->
         <scene sceneID="QFe-gk-35T">
             <objects>
                 <viewController storyboardIdentifier="SpecificGebiedPage" id="aG6-Sk-zue" customClass="SpecificGebiedPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rrh-wH-lpK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Regio Naam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV9-3Y-aHn">
@@ -244,6 +261,7 @@
     </scenes>
     <resources>
         <image name="Foto_Beginpagina" width="800" height="450"/>
+        <image name="IMG_20191017_163414" width="3456" height="1183"/>
         <image name="Line divider" width="4489" height="246"/>
     </resources>
 </document>
