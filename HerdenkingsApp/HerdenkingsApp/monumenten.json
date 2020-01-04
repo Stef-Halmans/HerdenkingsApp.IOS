@@ -13,6 +13,20 @@
     "description": "Dit is een mooi monument",
     "longitude": 12.4234213,
     "latitude": 12.3423423
+    },
+    {"imageFilename":"indiemonument",
+        "regio":"swalmen",
+        "title": "indië monument",
+        "description": "Dit is een mooi monument",
+        "longitude": 12.4234213,
+        "latitude": 12.3423423
+    },
+    {"imageFilename":"indiemonument",
+        "regio":"roermond",
+        "title": "indië monument",
+        "description": "Dit is een mooi monument",
+        "longitude": 12.4234213,
+        "latitude": 12.3423423
     }
   ]
 

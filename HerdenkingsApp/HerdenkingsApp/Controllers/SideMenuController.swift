@@ -31,6 +31,10 @@ class SideMenuController: UITableViewController{
         else if(indexPath.item == 3){
             containerDelegate.changePage(page: .geschiedenisPage)
         }
+        else if(indexPath.item == 4){
+            currentGebied = .roermond
+            containerDelegate.changePage(page: .specifiekMonumentPage)
+        }
         
     }
     

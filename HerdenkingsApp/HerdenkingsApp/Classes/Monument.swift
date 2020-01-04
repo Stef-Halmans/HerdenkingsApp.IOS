@@ -4,13 +4,15 @@ import Foundation
 
 public class Monument : Codable{
     var title: String
-    var regio: String
+    var regio: gebieden
     var imageFilename: String
     var description: String
     var longitude: Double
     var latitude: Double
     
-    init(title: String, regio: String, imageFilename: String, description: String, longitude: Double, latitude: Double) {
+
+    
+    init(title: String, regio: gebieden, imageFilename: String, description: String, longitude: Double, latitude: Double) {
         self.title = title
         self.regio = regio
         self.imageFilename = imageFilename

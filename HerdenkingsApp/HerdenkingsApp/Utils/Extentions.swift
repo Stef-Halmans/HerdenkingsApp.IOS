@@ -62,6 +62,18 @@ extension UIStoryboard{
     
 }
 
+extension Array where Iterator.Element == Monument {
+    func sort(gebied: gebieden) -> [Monument] {
+        var monumenten: [Monument] = []
+        for monument in self {
+            if case monument.regio = gebied{
+                monumenten.append(monument)
+            }
+        }
+        return monumenten
+    }
+}
+
 
 
 

@@ -13,13 +13,14 @@ public enum pages{
     case geschiedenisPage
 }
 
-public enum gebieden{
-    case roermond
-    case herten
-    case swalmen
-    case maasniel
-    case asenray
-    case alleGebieden
+public enum gebieden : String, Codable {
+   
+    case roermond = "roermond"
+    case herten = "herten"
+    case swalmen = "swalmen"
+    case maasniel = "maasniel"
+    case asenray = "asenray"
+    case alleGebieden = "alleGebieden"
 }
 
 public var currentGebied: gebieden!
@@ -30,3 +31,5 @@ public var currentPage: pages!
 public var showingSideMenu = false
 
 public var monumenten: [Monument] = []
+
+public var monumentNummer: Int = 0

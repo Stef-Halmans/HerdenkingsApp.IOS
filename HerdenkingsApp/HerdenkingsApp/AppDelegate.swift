@@ -27,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         monumenten = LoadData.LoadMonumenten(fileName: "monumenten", fileType: "json")
         
+        
         return true
     }
     
