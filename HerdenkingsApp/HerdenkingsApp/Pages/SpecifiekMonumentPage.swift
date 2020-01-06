@@ -10,8 +10,7 @@ import UIKit
 
 class SpecifiekMonumentPage: PageController {
 
-    var monumentenUitGebied: [Monument] = []
-    var monumentNummer: Int = 0
+
     
     @IBOutlet weak var monumentPicture: UIImageView!
     @IBOutlet weak var monumentName: UILabel!
@@ -31,7 +30,7 @@ class SpecifiekMonumentPage: PageController {
     func initializeMonument(){
         
         monumentName.text = monumentenUitGebied[monumentNummer].title
-        monumentDescription.text = monumentenUitGebied[monumentNummer].description
+        monumentDescription.text = monumentenUitGebied[monumentNummer].description 
         
     }
     

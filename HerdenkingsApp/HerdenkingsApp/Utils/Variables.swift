@@ -32,4 +32,6 @@ public var showingSideMenu = false
 
 public var monumenten: [Monument] = []
 
+public var monumentenUitGebied: [Monument] = []
+
 public var monumentNummer: Int = 0
