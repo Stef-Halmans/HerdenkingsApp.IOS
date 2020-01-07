@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="4624" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController storyboardIdentifier="MainPage" id="BYZ-38-t0r" customClass="MainPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IfZ-Xa-tB0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ql-Cj-SIf">
-                                <rect key="frame" x="0.0" y="694" width="414" height="42"/>
+                                <rect key="frame" x="0.0" y="820" width="414" height="42"/>
                                 <color key="backgroundColor" red="0.1215686275" green="0.23137254900000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" red="0.1215686275" green="0.23137254900000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -29,7 +29,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPC-Rb-M06">
-                                <rect key="frame" x="0.0" y="644" width="414" height="42"/>
+                                <rect key="frame" x="0.0" y="770" width="414" height="42"/>
                                 <color key="backgroundColor" red="0.1215686275" green="0.23137254900000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" red="0.1215686275" green="0.23137254900000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Herdenking Roermond" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqE-YG-oDh">
-                                <rect key="frame" x="20" y="273" width="374" height="34.333333333333314"/>
+                                <rect key="frame" x="20" y="317" width="374" height="34.333333333333314"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cqE-YG-oDh" secondAttribute="height" multiplier="163:15" id="a6P-AC-Xff"/>
                                 </constraints>
@@ -50,19 +50,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Foto_Beginpagina" translatesAutoresizingMaskIntoConstraints="NO" id="tih-ap-6nc">
-                                <rect key="frame" x="20" y="54" width="374" height="211"/>
+                                <rect key="frame" x="20" y="98" width="374" height="211"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tih-ap-6nc" secondAttribute="height" multiplier="335:189" id="2Xo-bi-Lkq"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line divider" translatesAutoresizingMaskIntoConstraints="NO" id="KN1-Hx-8jd">
-                                <rect key="frame" x="20" y="307.33333333333331" width="374" height="19"/>
+                                <rect key="frame" x="20" y="351.33333333333331" width="374" height="19"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="KN1-Hx-8jd" secondAttribute="height" multiplier="374:19" id="7Tb-U4-jKP"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpt-gb-aLm">
-                                <rect key="frame" x="20" y="334.33333333333326" width="374" height="301.66666666666674"/>
+                                <rect key="frame" x="20" y="378.33333333333326" width="374" height="383.66666666666674"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -115,7 +115,7 @@
             <objects>
                 <viewController title="Side Menu Controller" id="xQs-tT-B0Z" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Bq-SX-Wri">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Side Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITi-ki-qDf">
@@ -147,7 +147,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="SideMenuTableView" clearsSelectionOnViewWillAppear="NO" id="Ooq-iL-rGf" customClass="SideMenuController" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="RvX-Sb-vwo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
@@ -256,23 +256,23 @@
             <objects>
                 <viewController storyboardIdentifier="SpecifiekMonumentPage" id="tbV-C6-Pzw" customClass="SpecifiekMonumentPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K7a-1F-tuB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zkL-Xg-Diu">
-                                <rect key="frame" x="21" y="56" width="372" height="279"/>
+                                <rect key="frame" x="21" y="100" width="372" height="279"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="zkL-Xg-Diu" secondAttribute="height" multiplier="4:3" id="fbo-Qc-zy9"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="Line divider" translatesAutoresizingMaskIntoConstraints="NO" id="vZa-PX-yvb">
-                                <rect key="frame" x="21" y="378" width="372" height="19"/>
+                                <rect key="frame" x="21" y="422" width="372" height="19"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vZa-PX-yvb" secondAttribute="height" multiplier="372:19" id="tEM-aE-99Z"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="78Y-B8-NCI">
-                                <rect key="frame" x="0.0" y="694" width="414" height="42"/>
+                                <rect key="frame" x="0.0" y="820" width="414" height="42"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gebied" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8P-zP-adR">
                                         <rect key="frame" x="161" y="6" width="92" height="30"/>
@@ -292,7 +292,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Naam monument" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0D-kN-pGI">
-                                <rect key="frame" x="107" y="343" width="200" height="33"/>
+                                <rect key="frame" x="107" y="387" width="200" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="K0D-kN-pGI" secondAttribute="height" multiplier="200:33" id="uYp-vy-3cL"/>
                                 </constraints>
@@ -301,7 +301,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RsB-ZX-zwj">
-                                <rect key="frame" x="20" y="405" width="374" height="281"/>
+                                <rect key="frame" x="20" y="449" width="374" height="363"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -349,17 +349,17 @@
             <objects>
                 <viewController storyboardIdentifier="GeschiedenisPage" id="yjg-c5-dax" customClass="GeschiedenisPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="05E-c0-EJl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Foto_Beginpagina" translatesAutoresizingMaskIntoConstraints="NO" id="Fec-kL-aYi">
-                                <rect key="frame" x="20" y="54" width="374" height="212"/>
+                                <rect key="frame" x="20" y="98" width="374" height="212"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Fec-kL-aYi" secondAttribute="height" multiplier="187:106" id="dSJ-Cd-LLt"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Geschiedenis roermond" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qqb-IJ-xFJ">
-                                <rect key="frame" x="78.666666666666686" y="274" width="257" height="30"/>
+                                <rect key="frame" x="78.666666666666686" y="318" width="257" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Qqb-IJ-xFJ" secondAttribute="height" multiplier="257:30" id="6TM-g8-pyg"/>
                                 </constraints>
@@ -371,13 +371,13 @@
                                 </variation>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="Line divider" translatesAutoresizingMaskIntoConstraints="NO" id="y3V-h9-pKW">
-                                <rect key="frame" x="20" y="312" width="374" height="19"/>
+                                <rect key="frame" x="20" y="356" width="374" height="19"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="y3V-h9-pKW" secondAttribute="height" multiplier="374:19" id="Oak-Bd-gTt"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mnl-YM-CMJ">
-                                <rect key="frame" x="20" y="339" width="374" height="377"/>
+                                <rect key="frame" x="20" y="383" width="374" height="459"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -416,28 +416,30 @@
         <scene sceneID="fcp-VM-TM6">
             <objects>
                 <viewController storyboardIdentifier="KiesGebiedPage" id="mAq-WH-oNZ" customClass="KiesGebiedPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vPp-58-Rp9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <view key="view" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="vPp-58-Rp9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" preservesSuperviewLayoutMargins="YES" image="RoermondFrontFoto" translatesAutoresizingMaskIntoConstraints="NO" id="3xC-Zq-06F">
-                                <rect key="frame" x="20" y="54" width="374" height="130.00000000000023"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="374" placeholderIntrinsicHeight="130" preservesSuperviewLayoutMargins="YES" image="RoermondFrontFoto" translatesAutoresizingMaskIntoConstraints="NO" id="3xC-Zq-06F">
+                                <rect key="frame" x="20" y="119" width="374" height="159"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3xC-Zq-06F" secondAttribute="height" multiplier="187:65" id="QOr-kW-LcI"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" text="Roermond" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="ine-6R-hOF">
-                                <rect key="frame" x="148" y="184" width="118" height="32.333333333333343"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Roermond" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="ine-6R-hOF">
+                                <rect key="frame" x="20" y="228" width="374" height="27.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" ambiguous="YES" placeholderIntrinsicWidth="135" placeholderIntrinsicHeight="179.99999999999977" preservesSuperviewLayoutMargins="YES" image="HertenFrontFoto" translatesAutoresizingMaskIntoConstraints="NO" id="9B1-LY-UUY">
-                                <rect key="frame" x="20" y="216" width="135" height="180"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" placeholderIntrinsicWidth="135" placeholderIntrinsicHeight="179.99999999999977" preservesSuperviewLayoutMargins="YES" image="HertenFrontFoto" translatesAutoresizingMaskIntoConstraints="NO" id="9B1-LY-UUY">
+                                <rect key="frame" x="20" y="260" width="135" height="180.00000000000023"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="9B1-LY-UUY" secondAttribute="height" multiplier="135:179" id="1MG-hS-Nte"/>
+                                    <constraint firstAttribute="width" secondItem="9B1-LY-UUY" secondAttribute="height" multiplier="3:4" id="3LG-7y-qkn"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ft-rf-pGd">
-                                <rect key="frame" x="0.0" y="766" width="457" height="46"/>
+                                <rect key="frame" x="0.0" y="933" width="457" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1215686275" green="0.23137254900000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -449,28 +451,20 @@
                                     <action selector="MonumentenPageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="43o-p7-d9g"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" fixedFrame="YES" placeholderIntrinsicWidth="135" placeholderIntrinsicHeight="179.99999999999977" preservesSuperviewLayoutMargins="YES" image="MaasnielFrontFoto" translatesAutoresizingMaskIntoConstraints="NO" id="21G-w7-fnZ">
-                                <rect key="frame" x="22" y="473" width="191" height="253"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" text="Herten" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77y-4N-kWy">
-                                <rect key="frame" x="20" y="396" width="135" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Herten" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77y-4N-kWy">
+                                <rect key="frame" x="20" y="440" width="135" height="20.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" text="Swalmen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Kb-9K-cwL">
-                                <rect key="frame" x="259" y="396" width="135" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Swalmen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Kb-9K-cwL">
+                                <rect key="frame" x="259" y="440" width="135" height="20.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" fixedFrame="YES" placeholderIntrinsicWidth="135" placeholderIntrinsicHeight="179.99999999999977" preservesSuperviewLayoutMargins="YES" image="AsenrayFrontFoto" translatesAutoresizingMaskIntoConstraints="NO" id="eum-kB-0bW">
-                                <rect key="frame" x="285" y="527" width="150" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" ambiguous="YES" placeholderIntrinsicWidth="135" placeholderIntrinsicHeight="180" preservesSuperviewLayoutMargins="YES" image="SwalmenFrontFoto" translatesAutoresizingMaskIntoConstraints="NO" id="vIU-Ky-Zm7">
-                                <rect key="frame" x="259" y="216" width="135" height="180"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" placeholderIntrinsicWidth="135" placeholderIntrinsicHeight="180" preservesSuperviewLayoutMargins="YES" image="SwalmenFrontFoto" translatesAutoresizingMaskIntoConstraints="NO" id="vIU-Ky-Zm7">
+                                <rect key="frame" x="259" y="260" width="135" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vIU-Ky-Zm7" secondAttribute="height" multiplier="3:4" id="kLU-Rd-El7"/>
                                 </constraints>
@@ -478,15 +472,25 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="ine-6R-hOF" firstAttribute="leading" secondItem="3xC-Zq-06F" secondAttribute="leading" id="1eH-7G-tho"/>
+                            <constraint firstItem="ine-6R-hOF" firstAttribute="top" secondItem="3xC-Zq-06F" secondAttribute="bottom" id="2H3-4g-wNa"/>
                             <constraint firstItem="77y-4N-kWy" firstAttribute="width" secondItem="9B1-LY-UUY" secondAttribute="width" id="2a4-T8-JVq"/>
-                            <constraint firstItem="vIU-Ky-Zm7" firstAttribute="top" secondItem="3xC-Zq-06F" secondAttribute="bottom" constant="32" id="5xO-Q4-5V5"/>
                             <constraint firstItem="vIU-Ky-Zm7" firstAttribute="leading" secondItem="9B1-LY-UUY" secondAttribute="trailing" constant="104" id="9ek-Oq-ZyQ"/>
-                            <constraint firstItem="77y-4N-kWy" firstAttribute="top" secondItem="9B1-LY-UUY" secondAttribute="bottom" constant="2.2737367544323206e-13" id="GmP-Kx-7md"/>
-                            <constraint firstItem="9B1-LY-UUY" firstAttribute="top" secondItem="3xC-Zq-06F" secondAttribute="bottom" constant="32" id="TGZ-aB-MTw"/>
+                            <constraint firstItem="ine-6R-hOF" firstAttribute="trailing" secondItem="3xC-Zq-06F" secondAttribute="trailing" id="Bt2-Jc-pdZ"/>
+                            <constraint firstItem="6Kb-9K-cwL" firstAttribute="trailing" secondItem="vIU-Ky-Zm7" secondAttribute="trailing" id="HXe-5v-Rag"/>
+                            <constraint firstItem="rWU-cm-eLF" firstAttribute="trailing" secondItem="3xC-Zq-06F" secondAttribute="trailing" constant="20" id="J2w-2Z-jJC"/>
+                            <constraint firstItem="77y-4N-kWy" firstAttribute="trailing" secondItem="9B1-LY-UUY" secondAttribute="trailing" id="RDP-Ex-zeY"/>
                             <constraint firstItem="6Kb-9K-cwL" firstAttribute="top" secondItem="vIU-Ky-Zm7" secondAttribute="bottom" id="Wto-Oy-Woa"/>
                             <constraint firstItem="9B1-LY-UUY" firstAttribute="leading" secondItem="rWU-cm-eLF" secondAttribute="leading" constant="20" id="aMg-sF-IT8"/>
+                            <constraint firstItem="vIU-Ky-Zm7" firstAttribute="top" secondItem="3xC-Zq-06F" secondAttribute="bottom" constant="32" id="cgo-8Q-tgc"/>
+                            <constraint firstItem="3xC-Zq-06F" firstAttribute="leading" secondItem="rWU-cm-eLF" secondAttribute="leading" constant="20" id="e0K-mP-Xmu"/>
+                            <constraint firstItem="6Kb-9K-cwL" firstAttribute="leading" secondItem="vIU-Ky-Zm7" secondAttribute="leading" id="p2u-mE-ATc"/>
                             <constraint firstItem="rWU-cm-eLF" firstAttribute="trailing" secondItem="vIU-Ky-Zm7" secondAttribute="trailing" constant="20" id="up1-6J-3xn"/>
+                            <constraint firstItem="77y-4N-kWy" firstAttribute="top" secondItem="9B1-LY-UUY" secondAttribute="bottom" id="v5h-Th-idc"/>
+                            <constraint firstItem="9B1-LY-UUY" firstAttribute="top" secondItem="3xC-Zq-06F" secondAttribute="bottom" constant="32" id="vMD-Vc-fje"/>
+                            <constraint firstItem="77y-4N-kWy" firstAttribute="leading" secondItem="9B1-LY-UUY" secondAttribute="leading" id="zCK-X5-yXB"/>
                             <constraint firstItem="6Kb-9K-cwL" firstAttribute="width" secondItem="vIU-Ky-Zm7" secondAttribute="width" id="zl4-Yr-Xdy"/>
+                            <constraint firstItem="3xC-Zq-06F" firstAttribute="top" secondItem="rWU-cm-eLF" secondAttribute="top" constant="10" id="znj-fs-1kC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rWU-cm-eLF"/>
                     </view>
@@ -502,7 +506,7 @@
             <objects>
                 <viewController storyboardIdentifier="LijstMonumentenPage" id="aG6-Sk-zue" customClass="LijstMonumentenPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rrh-wH-lpK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lijst Monumenten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV9-3Y-aHn">
@@ -525,11 +529,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AsenrayFrontFoto" width="1036" height="1382"/>
         <image name="Foto_Beginpagina" width="800" height="450"/>
         <image name="HertenFrontFoto" width="1036" height="1382"/>
         <image name="Line divider" width="4489" height="246"/>
-        <image name="MaasnielFrontFoto" width="1036" height="1382"/>
         <image name="RoermondFrontFoto" width="3456" height="1183"/>
         <image name="SwalmenFrontFoto" width="2116" height="2822"/>
     </resources>
