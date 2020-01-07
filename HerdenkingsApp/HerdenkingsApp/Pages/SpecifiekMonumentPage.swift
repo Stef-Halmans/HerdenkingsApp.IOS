@@ -34,10 +34,11 @@ class SpecifiekMonumentPage: PageController {
         
     }
     
-    @objc func nextMonument(_ sender: Any){
+    @IBAction func nextMonument(_ sender: Any) {
         monumentNummer += 1
         initializeMonument()
     }
+
     
     @objc func previousMonument(_ sender: Any){
         monumentNummer -= 1
