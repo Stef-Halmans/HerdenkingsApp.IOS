@@ -12,6 +12,8 @@ class LijstMonumentenPage: PageController, UICollectionViewDataSource, UICollect
 
     @IBOutlet weak var monumentenCollectionView: UICollectionView!
     
+    @IBOutlet weak var gebiedLabel: UILabel!
+    
     override func viewDidLoad() {
         monumentenUitGebied = monumenten.sort(gebied: currentGebied)
         
@@ -21,16 +23,17 @@ class LijstMonumentenPage: PageController, UICollectionViewDataSource, UICollect
 
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: itemSize, height: itemSize)
-        
         layout.minimumInteritemSpacing = 10
         layout.minimumLineSpacing = 10
-    
         
-        monumentenCollectionView.collectionViewLayout = layout        
+        monumentenCollectionView.collectionViewLayout = layout
+        
+        gebiedLabel.text = Functions.enumToString(gebied: currentGebied)
         
 
 
     }
+    
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return monumentenUitGebied.count
@@ -48,6 +51,11 @@ class LijstMonumentenPage: PageController, UICollectionViewDataSource, UICollect
         
         return cell
         
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        monumentNummer = indexPath.row
+        containerDelegate.changePage(page: .specifiekMonumentPage)
     }
 
 

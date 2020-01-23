@@ -66,6 +66,9 @@ extension Array where Iterator.Element == Monument {
     func sort(gebied: gebieden) -> [Monument] {
         var monumenten: [Monument] = []
         for monument in self {
+            if case gebied = gebieden.alleGebieden {
+                monumenten.append(monument)
+            }
             if case monument.regio = gebied{
                 monumenten.append(monument)
             }
@@ -73,6 +76,7 @@ extension Array where Iterator.Element == Monument {
         return monumenten
     }
 }
+
 
 
 

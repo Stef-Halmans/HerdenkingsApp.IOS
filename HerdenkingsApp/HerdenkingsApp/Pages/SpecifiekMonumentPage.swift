@@ -19,10 +19,13 @@ class SpecifiekMonumentPage: PageController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        monumentNummer = 0
+        
+        monumentName.adjustsFontSizeToFitWidth = true
 
         monumentenUitGebied = monumenten.sort(gebied: currentGebied)
-        gebiedName.text = currentGebied.rawValue
+        
+        gebiedName.text = Functions.enumToString(gebied: currentGebied)
+
         
         initializeMonument()
 
