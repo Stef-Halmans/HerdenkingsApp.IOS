@@ -26,9 +26,7 @@ class LijstMonumentenPage: PageController, UICollectionViewDataSource, UICollect
         layout.minimumLineSpacing = 10
     
         
-        monumentenCollectionView.collectionViewLayout = layout
-        
-        
+        monumentenCollectionView.collectionViewLayout = layout        
         
 
 
