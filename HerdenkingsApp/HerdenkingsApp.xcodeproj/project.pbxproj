@@ -16,6 +16,7 @@
 		D92F04C523B96A7100D0CBE9 /* Monument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C423B96A7100D0CBE9 /* Monument.swift */; };
 		D92F04C723B96A8B00D0CBE9 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C623B96A8B00D0CBE9 /* LoadData.swift */; };
 		D92F04C923B96AAC00D0CBE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92F04C823B96AAC00D0CBE9 /* Main.storyboard */; };
+		D95EC5DE23D9040400232C63 /* MonumentImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95EC5DD23D9040400232C63 /* MonumentImageCell.swift */; };
 		D983122B2385B1E100199788 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983122A2385B1E100199788 /* PageController.swift */; };
 		D983122D2385B35F00199788 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983122C2385B35F00199788 /* Variables.swift */; };
 		D9DE34152381F9BF00D7DF99 /* KiesGebiedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE34102381F9BF00D7DF99 /* KiesGebiedPage.swift */; };
@@ -58,6 +59,7 @@
 		D92F04C423B96A7100D0CBE9 /* Monument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monument.swift; sourceTree = "<group>"; };
 		D92F04C623B96A8B00D0CBE9 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
 		D92F04C823B96AAC00D0CBE9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D95EC5DD23D9040400232C63 /* MonumentImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentImageCell.swift; sourceTree = "<group>"; };
 		D983122A2385B1E100199788 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		D983122C2385B35F00199788 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		D9DE34102381F9BF00D7DF99 /* KiesGebiedPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KiesGebiedPage.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				D90A1FC72382FD890058828A /* SideMenuController.swift */,
 				D983122A2385B1E100199788 /* PageController.swift */,
 				D92F04C123B969E400D0CBE9 /* SlideInTransition.swift */,
+				D95EC5DD23D9040400232C63 /* MonumentImageCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				D9E1D42F23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld in Sources */,
 				D9DE34172381F9BF00D7DF99 /* MainPage.swift in Sources */,
 				D9E1D42723808AB500FDBA2B /* AppDelegate.swift in Sources */,
+				D95EC5DE23D9040400232C63 /* MonumentImageCell.swift in Sources */,
 				D92F04C223B969E400D0CBE9 /* SlideInTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,14 +519,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H9R8377M6W;
+				DEVELOPMENT_TEAM = FHYJ7QUNZQ;
 				INFOPLIST_FILE = HerdenkingsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.StefInc.HerdenkingsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BSJTechnologies.HerdenkingsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -534,14 +538,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H9R8377M6W;
+				DEVELOPMENT_TEAM = FHYJ7QUNZQ;
 				INFOPLIST_FILE = HerdenkingsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.StefInc.HerdenkingsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BSJTechnologies.HerdenkingsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -19,7 +19,8 @@ class SpecifiekMonumentPage: PageController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        monumentNummer = 0
+
         monumentenUitGebied = monumenten.sort(gebied: currentGebied)
         gebiedName.text = currentGebied.rawValue
         
@@ -29,19 +30,31 @@ class SpecifiekMonumentPage: PageController {
 
     func initializeMonument(){
         
+        monumentPicture.image = UIImage(named: monumentenUitGebied[monumentNummer].imageFilename)
         monumentName.text = monumentenUitGebied[monumentNummer].title
         monumentDescription.text = monumentenUitGebied[monumentNummer].description 
         
     }
     
     @IBAction func nextMonument(_ sender: Any) {
-        monumentNummer += 1
+        if(monumentNummer == monumentenUitGebied.count - 1){
+            monumentNummer = 0
+        }
+        else if(monumentNummer < monumentenUitGebied.count - 1){
+            monumentNummer += 1
+        }
         initializeMonument()
     }
 
     
-    @objc func previousMonument(_ sender: Any){
-        monumentNummer -= 1
+    @IBAction func previousMonument(_ sender: Any){
+        if(monumentNummer > 0){
+            monumentNummer -= 1
+        }
+        else if (monumentNummer == 0){
+            monumentNummer = monumentenUitGebied.count - 1
+        }
+        initializeMonument()
     }
 
     
