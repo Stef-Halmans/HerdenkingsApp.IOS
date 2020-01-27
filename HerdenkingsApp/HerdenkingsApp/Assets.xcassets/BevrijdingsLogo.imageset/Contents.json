@@ -2,17 +2,15 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "BevrMailSmall.png",
+      "filename" : "BevrMailLarge.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "BevrMailMedium.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "BevrMailLarge.png",
       "scale" : "3x"
     }
   ],

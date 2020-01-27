@@ -25,17 +25,26 @@ class SpecifiekMonumentPage: PageController {
         monumentenUitGebied = monumenten.sort(gebied: currentGebied)
         
         gebiedName.text = Functions.enumToString(gebied: currentGebied)
-
+        monumentDescription.isScrollEnabled = true
+        monumentDescription.isUserInteractionEnabled = true
         
         initializeMonument()
 
     }
+    
+//    override func viewDidAppear(_ animated: Bool) {
+//        monumentDescription.scrollRangeToVisible(NSMakeRange(0, 0))
+//    }
 
     func initializeMonument(){
         
         monumentPicture.image = UIImage(named: monumentenUitGebied[monumentNummer].imageFilename)
         monumentName.text = monumentenUitGebied[monumentNummer].title
-        monumentDescription.text = monumentenUitGebied[monumentNummer].description 
+         monumentDescription.isScrollEnabled = false
+        monumentDescription.text = monumentenUitGebied[monumentNummer].description
+        monumentDescription.isScrollEnabled = true
+        monumentDescription.scrollRangeToVisible(NSMakeRange(0, 0))
+        
         
     }
     

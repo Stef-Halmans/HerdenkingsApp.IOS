@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MapKit
 
 class ContainerController: UIViewController{
     
@@ -89,26 +90,50 @@ class ContainerController: UIViewController{
         }
     
     func  configureNavigationBar() {
+        var uiRightBarButtonItems: [UIBarButtonItem] = []
         if(currentPage != .mainPage){
             let backButton = UIButton(type: UIButtonType.custom)
-            backButton.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
             backButton.addTarget(self, action: #selector(backButtonPressed), for: .touchUpInside)
             backButton.setImage(UIImage(named: "BackButton"), for: UIControlState())
             let menuBarButtonItem = UIBarButtonItem(customView: backButton)
+            let currWidth = menuBarButtonItem.customView?.widthAnchor.constraint(equalToConstant: 35)
+            currWidth?.isActive = true
+            let currHeight = menuBarButtonItem.customView?.heightAnchor.constraint(equalToConstant: 35)
+            currHeight?.isActive = true
+            
             centerPageController.navigationItem.leftBarButtonItem = menuBarButtonItem
         }
+
         let hamburgerMenu = UIButton(type: UIButtonType.custom)
         
-        hamburgerMenu.frame = CGRect(x: 0, y: 0, width: 40, height: 33)
         hamburgerMenu.addTarget(self, action: #selector(HamburgerMenuClicked(_:)), for: .touchUpInside)
         hamburgerMenu.setImage(UIImage(named: "HamburgerMenu"), for: UIControlState())
         
         let menuBarButtonItem = UIBarButtonItem(customView: hamburgerMenu)
+        menuBarButtonItem.customView?.widthAnchor.constraint(equalToConstant: 36).isActive = true
+        menuBarButtonItem.customView?.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        
+        uiRightBarButtonItems.append(menuBarButtonItem)
+        
+        if(currentPage == .specifiekMonumentPage){
+            let locationButton = UIButton(type: UIButtonType.custom)
+            locationButton.frame = CGRect(x: 0, y:0, width:40, height:40)
+            locationButton.addTarget(self, action: #selector(locationButtonPressed), for: .touchUpInside)
+            locationButton.setImage(UIImage(named: "locationButton"), for: UIControlState())
+            let menuBarButtonItem = UIBarButtonItem(customView: locationButton)
+            
+            menuBarButtonItem.customView?.widthAnchor.constraint(equalToConstant: 30).isActive = true
+            menuBarButtonItem.customView?.heightAnchor.constraint(equalToConstant: 30).isActive = true
+            
+            uiRightBarButtonItems.append(menuBarButtonItem)
+        }
         
         let logo = UIImage(named: "BevrijdingsLogo")
         let imageView = UIImageView(image:logo)
+        imageView.widthAnchor.constraint(equalToConstant: 105).isActive = true
+        imageView.heightAnchor.constraint(equalToConstant: 47).isActive = true
         
-        centerPageController.navigationItem.rightBarButtonItems = [menuBarButtonItem]
+        centerPageController.navigationItem.rightBarButtonItems = uiRightBarButtonItems
         centerPageController.navigationItem.titleView = imageView
         
         
@@ -123,6 +148,27 @@ class ContainerController: UIViewController{
         transition.containerControllerDelegate = self
 
         present(sideMenuController, animated: true)
+        
+    }
+    
+    @IBAction func locationButtonPressed(_ sender: Any){
+        let latitude:CLLocationDegrees = monumenten[monumentNummer].latitude
+        let longitude:CLLocationDegrees = monumenten[monumentNummer].latitude
+        
+        let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
+        let regionDistance:CLLocationDistance = 10000
+        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
+            MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
+        ]
+        
+        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = monumenten[monumentNummer].title
+        mapItem.openInMaps(launchOptions: options)
+        
+        
         
     }
 

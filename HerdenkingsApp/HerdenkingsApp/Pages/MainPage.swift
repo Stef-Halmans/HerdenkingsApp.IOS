@@ -10,9 +10,15 @@ import UIKit
 
 class MainPage : PageController {
     
+    @IBOutlet weak var textView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        textView.scrollRangeToVisible(NSMakeRange(0, 0))
     }
 
     
