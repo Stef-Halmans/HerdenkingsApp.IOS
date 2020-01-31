@@ -12,8 +12,8 @@
     "regio": "roermond",
     "title": "Plaquette kruiswegpark",
     "description": "Plaquette aan de scheidingsmuur van het park en het kerkhof van de paters. Opgericht ter nagedachtenis van de verzetshelden pater Bleijs en pater Van den Heuvel, en van de slachtoffers van het rectoraat van de Kapel in ’t Zand. \n Ontwerp: A. Wong. \n Onthuld op 20 augustus 1949, vier jaar na de dood van pater Bleijs (op 17 augustus 1945). Oorspronkelijk lag het graf van pater Bleijs vlakbij deze plaats in het Kruiswegpark. Later zijn pater Bleijs en pater Van den Heuvel herbegraven op het kerkhof van de paters, dat aan de andere kant van de muur ligt. \n Pater Bleijs, ook wel “de Aal van Oranje” genoemd, verongelukte kort na de oorlog op geheimzinnige wijze bij Gorinchem. Pater Van den Heuvel stierf tijdens de oorlog in strafgevangenis van Keulen door uitputting. Hij werd later ook herbegraven op het kerkhof binnen de kloostermuur.",
-    "longitude": "1234",
-    "latitude": "1234"
+    "longitude": 1234,
+    "latitude": 1234
   },
   {
     "imageFilename": "roermond_plaquettestationshal",
@@ -48,7 +48,7 @@
     "latitude": 51.18194444
   },
   {
-    "imageFilename": "roermond_nationaalindiëmonument",
+    "imageFilename": "roermond_nationaalindiëmonument",
     "regio": "roermond",
     "title": "Nationaal indië monument",
     "description": "Ontwerp: Wijnand Thönissen en Dick van Wijk. Onthuld in 1988 door ZKH prins Bernhard. \n Het monument verbeeldt het voormalig Nederlands-Indië door sawahs, karbouwen, kroonduif en zon. Het gedenkt de gevallenen in Oost-Indië en op Nieuw-Guinea in de periode van 1945 tot 1962. \n Jaarlijks wordt hier op 7 september de nationale herdenking georganiseerd, die door duizenden mensen wordt bijgewoond.",
@@ -180,8 +180,8 @@
     "regio": "roermond",
     "title": "Monument 10 mei 1940",
     "description": "Om een blijvende herinnering te vormen aan de gerechtvaardigde, doch ongelijke strijd van het 17de Grensbataljon, het derde bataljon 41ste Regiment Infanterie en de Politietroepen in de vroege ochtend van 10 mei 1940, werd 70 jaar later op 10 mei 2010 dit monument onthuld. \n Voor de locatie van het monument is bewust gekozen, omdat hier de Maaslinie door de genoemde eenheden in 1940 werd verdedigd. \n Het naast het monument geplaatste informatiebord geeft meer informatie over de gevechten in en om Roermond op 10 mei 1940.",
-    "longitude": 1234,
-    "latitude": 1234
+    "longitude": 5.976713,
+    "latitude": 51.201981
   },
   {
     "imageFilename": "roermond_monumenteersteschotvandetweedewereldoorlog",
@@ -232,7 +232,7 @@
     "latitude": 51.18138889
   },
   {
-    "imageFilename": "roermond_mariabeeldcafédeviersprong",
+    "imageFilename": "roermond_mariabeeldcafédeviersprong",
     "regio": "roermond",
     "title": "Mariabeeld café De Viersprong",
     "description": "Achterzijde café De Viersprong. Kleine kapel met daarin een Mariabeeld, ter nagedachtenis aan hen die niet terugkeerden uit Duitsland. \n Geplaatst door Marie Evers in de gevel wat toen heette café De Saldt. Het café ligt aan de weg waarover op 30 december 1944 de 2.800 Roermondse jongens en mannen te voet werden afgevoerd naar Duitsland.",

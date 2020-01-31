@@ -10,10 +10,17 @@ import UIKit
 
 class GeschiedenisPage: PageController {
 
+    @IBOutlet weak var geschiedenisText: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        geschiedenisText.isScrollEnabled = true
+        geschiedenisText.isUserInteractionEnabled = true
+        
 
-
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        geschiedenisText.scrollRangeToVisible(NSMakeRange(0, 0))
     }
 
 

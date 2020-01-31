@@ -54,6 +54,7 @@ class SpecifiekMonumentPage: PageController {
         gebiedName.text = Functions.enumToString(gebied: currentGebied)
         monumentDescription.isScrollEnabled = true
         monumentDescription.isUserInteractionEnabled = true
+        monumentDescription.scrollRangeToVisible(NSMakeRange(0, 0))
 }
     
 

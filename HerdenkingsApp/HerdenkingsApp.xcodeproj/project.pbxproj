@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34A2877123E35A8200B3B69E /* Main 19-39-33-749.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A2877023E35A8100B3B69E /* Main 19-39-33-749.storyboard */; };
+		34A2877123E35A8200B3B69E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A2877023E35A8100B3B69E /* Main.storyboard */; };
 		D90A1FC62382FCD30058828A /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A1FC52382FCD30058828A /* ContainerController.swift */; };
 		D90A1FC82382FD890058828A /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A1FC72382FD890058828A /* SideMenuController.swift */; };
 		D90A1FCB238319E40058828A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A1FCA238319E40058828A /* Protocols.swift */; };
@@ -51,7 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		34A2877023E35A8100B3B69E /* Main 19-39-33-749.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main 19-39-33-749.storyboard"; sourceTree = "<group>"; };
+		34A2877023E35A8100B3B69E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D90A1FC52382FCD30058828A /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
 		D90A1FC72382FD890058828A /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
 		D90A1FCA238319E40058828A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 				D9DE340F2381F9BF00D7DF99 /* Pages */,
 				D9E1D42623808AB500FDBA2B /* AppDelegate.swift */,
 				D9E1D43023808AB500FDBA2B /* Assets.xcassets */,
-				34A2877023E35A8100B3B69E /* Main 19-39-33-749.storyboard */,
+				34A2877023E35A8100B3B69E /* Main.storyboard */,
 				D9E1D43223808AB500FDBA2B /* LaunchScreen.storyboard */,
 				D9E1D43523808AB500FDBA2B /* Info.plist */,
 				D9E1D42D23808AB500FDBA2B /* HerdenkingsApp.xcdatamodeld */,
@@ -315,7 +315,7 @@
 				D9E1D43423808AB500FDBA2B /* LaunchScreen.storyboard in Resources */,
 				D91139C423BF88CD0084F490 /* monumenten.json in Resources */,
 				D9E1D43123808AB500FDBA2B /* Assets.xcassets in Resources */,
-				34A2877123E35A8200B3B69E /* Main 19-39-33-749.storyboard in Resources */,
+				34A2877123E35A8200B3B69E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -153,7 +153,7 @@ class ContainerController: UIViewController{
     
     @IBAction func locationButtonPressed(_ sender: Any){
         let latitude:CLLocationDegrees = monumenten[monumentNummer].latitude
-        let longitude:CLLocationDegrees = monumenten[monumentNummer].latitude
+        let longitude:CLLocationDegrees = monumenten[monumentNummer].longitude
         
         let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
         let regionDistance:CLLocationDistance = 10000
