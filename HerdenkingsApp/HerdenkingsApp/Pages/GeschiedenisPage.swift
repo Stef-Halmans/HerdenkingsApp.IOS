@@ -11,6 +11,7 @@ import UIKit
 class GeschiedenisPage: PageController {
 
     @IBOutlet weak var geschiedenisText: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         geschiedenisText.isScrollEnabled = true

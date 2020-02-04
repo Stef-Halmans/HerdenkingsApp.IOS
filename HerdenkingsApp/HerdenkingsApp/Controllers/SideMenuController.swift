@@ -29,6 +29,9 @@ class SideMenuController: UITableViewController{
             containerDelegate.changePage(page: .lijstMonumentenPage)
         }
         else if(indexPath.item == 3){
+            containerDelegate.changePage(page: .locatieMonumentenPage)
+        }
+        else if(indexPath.item == 4){
             containerDelegate.changePage(page: .geschiedenisPage)
         }
         

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment version="4624" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -222,8 +222,25 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="YK8-P2-RAd" style="IBUITableViewCellStyleDefault" id="p22-hQ-HMJ">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="8jN-K4-kKS" style="IBUITableViewCellStyleDefault" id="o9g-jD-Lcq">
                                         <rect key="frame" x="0.0" y="132" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="o9g-jD-Lcq" id="DZC-5u-pO6">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Locaties monumenten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8jN-K4-kKS">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.666666666666664"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="YK8-P2-RAd" style="IBUITableViewCellStyleDefault" id="p22-hQ-HMJ">
+                                        <rect key="frame" x="0.0" y="176" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p22-hQ-HMJ" id="pOd-yc-JG6">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
@@ -457,6 +474,36 @@
             </objects>
             <point key="canvasLocation" x="1160.8695652173915" y="2866.304347826087"/>
         </scene>
+        <!--Locatie Monumenten Page-->
+        <scene sceneID="pWr-yA-g6d">
+            <objects>
+                <viewController storyboardIdentifier="LocatieMonumentenPage" id="tw9-Hq-xz5" customClass="LocatieMonumentenPage" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xYf-1B-lNu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ML2-lm-ino">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ML2-lm-ino" firstAttribute="leading" secondItem="pgl-Jz-vLe" secondAttribute="leading" id="3Nu-bA-Ln1"/>
+                            <constraint firstItem="pgl-Jz-vLe" firstAttribute="bottom" secondItem="ML2-lm-ino" secondAttribute="bottom" id="BzA-ZB-xsb"/>
+                            <constraint firstItem="pgl-Jz-vLe" firstAttribute="trailing" secondItem="ML2-lm-ino" secondAttribute="trailing" id="OJf-1B-9CD"/>
+                            <constraint firstItem="pgl-Jz-vLe" firstAttribute="top" secondItem="ML2-lm-ino" secondAttribute="top" id="oqN-S9-ROp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pgl-Jz-vLe"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="mapView" destination="ML2-lm-ino" id="HYQ-MD-aCx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EFW-he-giF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2156.521739130435" y="1465.7608695652175"/>
+        </scene>
         <!--Geschiedenis Page-->
         <scene sceneID="mno-yn-VkL">
             <objects>
@@ -492,12 +539,12 @@
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
-                                <mutableString key="text">De stad Roermond en haar inwoners hebben tijdens WO2 zwaar geleden onder de Duitse bezetting. Ook de pogingen van de geallieerden om de stad te bevrijden zorgde voor burgerslachtoffers en verwoestingen. Roermond was vanaf begin september 1944 frontstad en werd een belangrijk steunpunt voor de verdediging van de Duitse westgrens. De stad en alle gebieden ten oosten van de Maas zijn op 9 september 1944 politiek en bestuurlijk ingelijfd bij het Duitse Rijk. 
+                                <string key="text">De stad Roermond en haar inwoners hebben tijdens WO2 zwaar geleden onder de Duitse bezetting. Ook de pogingen van de geallieerden om de stad te bevrijden zorgde voor burgerslachtoffers en verwoestingen. Roermond was vanaf begin september 1944 frontstad en werd een belangrijk steunpunt voor de verdediging van de Duitse westgrens. De stad en alle gebieden ten oosten van de Maas zijn op 9 september 1944 politiek en bestuurlijk ingelijfd bij het Duitse Rijk. 
 Op 14 september 1944 hoort men in Roermond hoe het Wilhelmus via de radio wordt uitgezonden vanuit Maastricht. De bevrijding zal nu nog slechts een kwestie van enkele dagen zijn, is de stellige overtuiging. Maar Operatie Market Garden mislukt voor een belangrijk deel en het geallieerd oppergezag onder leiding van generaal Eisenhower besluit dat eerst de haven van Antwerpen moet worden vrijgemaakt. 
 Roermond krijgt te maken met een waar schrikbewind van majoor Ulrich Matthaeas en zijn Fallschirmjägerregiment. Razzia's, plunderingen en terreur van de gedemoraliseerde maar fanatieke parachutisten zijn schering en inslag. Ulrich Matthaeas liet een decreet uitgaan dat alle mannen in de leeftijd tussen de zestien en zestig jaar zich moesten melden vóór 18 december 1944. De oproep had nauwelijks effect. Vrijwel alle mannen en jongens doken onder. Om een afschrikwekkend voorbeeld te stellen werd op 28 december 1944 bekendgemaakt dat veertien mannen - dertien Roermondenaren en een Poolse dwangarbeider -  in de nacht van 26 op 27 december 1944 in de bossen bij Elmpt terechtgesteld waren. Voortaan zou iedereen die niet aan de oproep van de Duitsers gehoor gaf, zonder aanziens des persoons standrechtelijk doodgeschoten worden. Die aankondiging bracht vele mannen, ongeveer 2.800, ertoe zich te melden. Onder barre omstandigheden gingen zij te voet naar Dülken. De meesten hebben in Wuppertal dwangarbeid moeten verrichten. Jaarlijks wordt dit met een voettocht vanaf de Heilig Hartkerk in het Roermondse Veld en een moment van stilte in het Elmpterwald (Lüzenkamp) herdacht. Het monument in het Lüzenkamp is een geschenk van de inwoners van de gemeente Niederkrüchten. 
 Eind januari en begin februari 1945 worden bijna alle inwoners geëvacueerd naar de noordelijke provincies. De Duitsers willen hun niet meer in de stad hebben. Velen konden pas in juni 1945 terugkeren naar Roermond. Ook de Joodse bevolking in Roermond heeft zwaar geleden tijdens de Tweede Wereldoorlog. Zij werden gedeporteerd en vermoord in vernietigingskampen. Slechts enkele keerden terug.
 De bevrijding van Roermond wordt uiteindelijk ingeluid met zware bombardementen van de Britten waarna de Amerikanen onder leiding van generaal- majoor John B. Anderson de stad bevrijden. In de nacht van de bevrijding blazen de bezetters de toren van de Sint Christoffelkathedraal nog op in een vrijwel verlaten binnenstad.
-</mutableString>
+</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

@@ -10,6 +10,7 @@ public enum pages{
     case kiesGebiedPage
     case lijstMonumentenPage
     case specifiekMonumentPage
+    case locatieMonumentenPage
     case geschiedenisPage
 }
 

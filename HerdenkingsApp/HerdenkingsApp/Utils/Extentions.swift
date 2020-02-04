@@ -56,7 +56,11 @@ extension UIStoryboard{
         return mainStoryboard().instantiateViewController(withIdentifier:"SpecifiekMonumentPage") as? SpecifiekMonumentPage
     }
     
-    static func GeschiedenisPage() -> GeschiedenisPage? {
+    static func locatieMonumentenPage() -> LocatieMonumentenPage? {
+        return mainStoryboard().instantiateViewController(withIdentifier: "LocatieMonumentenPage") as? LocatieMonumentenPage
+    }
+    
+    static func geschiedenisPage() -> GeschiedenisPage? {
         return mainStoryboard().instantiateViewController(withIdentifier:"GeschiedenisPage") as? GeschiedenisPage
     }
     

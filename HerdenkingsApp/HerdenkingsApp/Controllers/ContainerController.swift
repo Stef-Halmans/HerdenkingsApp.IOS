@@ -45,10 +45,13 @@ class ContainerController: UIViewController{
             centerPageController = UIStoryboard.lijstMonumentenPage()
         case .specifiekMonumentPage?:
             centerPageController = UIStoryboard.specifiekMonumentPage()
+        case .some(.locatieMonumentenPage):
+            centerPageController = UIStoryboard.locatieMonumentenPage()
         case .geschiedenisPage?:
-            centerPageController = UIStoryboard.GeschiedenisPage()
+            centerPageController = UIStoryboard.geschiedenisPage()
         case .none:
             break
+
         }
         
         centerPageController.containerDelegate = self
@@ -80,14 +83,15 @@ class ContainerController: UIViewController{
             changePage(page: .mainPage)
         case .kiesGebiedPage?:
             changePage(page: .mainPage)
+        case .locatieMonumentenPage?:
+            changePage(page: .mainPage)
         case .geschiedenisPage?:
             changePage(page: .mainPage)
         case .none:
             break
-        }
-        
 
         }
+    }
     
     func  configureNavigationBar() {
         var uiRightBarButtonItems: [UIBarButtonItem] = []
