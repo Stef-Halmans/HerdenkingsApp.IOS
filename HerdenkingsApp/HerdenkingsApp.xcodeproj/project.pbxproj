@@ -16,6 +16,7 @@
 		D92F04C223B969E400D0CBE9 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C123B969E400D0CBE9 /* SlideInTransition.swift */; };
 		D92F04C523B96A7100D0CBE9 /* Monument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C423B96A7100D0CBE9 /* Monument.swift */; };
 		D92F04C723B96A8B00D0CBE9 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C623B96A8B00D0CBE9 /* LoadData.swift */; };
+		D954B9D723ECB98100D55F75 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954B9D623ECB98100D55F75 /* MapKit.framework */; };
 		D9551CD723E9BAB300E74E69 /* LocatieMonumentenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9551CD623E9BAB300E74E69 /* LocatieMonumentenPage.swift */; };
 		D95EC5DE23D9040400232C63 /* MonumentImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95EC5DD23D9040400232C63 /* MonumentImageCell.swift */; };
 		D974160623DA5B4D002CB7F7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D974160523DA5B4D002CB7F7 /* Functions.swift */; };
@@ -61,6 +62,7 @@
 		D92F04C123B969E400D0CBE9 /* SlideInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		D92F04C423B96A7100D0CBE9 /* Monument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monument.swift; sourceTree = "<group>"; };
 		D92F04C623B96A8B00D0CBE9 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
+		D954B9D623ECB98100D55F75 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D9551CD623E9BAB300E74E69 /* LocatieMonumentenPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatieMonumentenPage.swift; sourceTree = "<group>"; };
 		D95EC5DD23D9040400232C63 /* MonumentImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentImageCell.swift; sourceTree = "<group>"; };
 		D974160523DA5B4D002CB7F7 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D954B9D723ECB98100D55F75 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +145,14 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		D954B9D523ECB98100D55F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D954B9D623ECB98100D55F75 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9DE340F2381F9BF00D7DF99 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +173,7 @@
 				D9E1D43D23808AB500FDBA2B /* HerdenkingsAppTests */,
 				D9E1D44823808AB500FDBA2B /* HerdenkingsAppUITests */,
 				D9E1D42423808AB500FDBA2B /* Products */,
+				D954B9D523ECB98100D55F75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,6 +291,11 @@
 				TargetAttributes = {
 					D9E1D42223808AB500FDBA2B = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					D9E1D43923808AB500FDBA2B = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -529,7 +546,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FHYJ7QUNZQ;
 				INFOPLIST_FILE = HerdenkingsApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -548,7 +565,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FHYJ7QUNZQ;
 				INFOPLIST_FILE = HerdenkingsApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

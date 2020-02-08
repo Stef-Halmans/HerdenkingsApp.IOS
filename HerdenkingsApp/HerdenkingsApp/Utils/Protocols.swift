@@ -7,6 +7,7 @@
 //
 import Foundation
 import UIKit
+import MapKit
 
 protocol ContainerControllerDelegate{
     
@@ -14,3 +15,5 @@ protocol ContainerControllerDelegate{
     func HideDetailPage()
     
 }
+
+

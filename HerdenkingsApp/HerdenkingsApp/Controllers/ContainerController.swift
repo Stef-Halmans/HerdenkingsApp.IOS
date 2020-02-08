@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class ContainerController: UIViewController{
+class ContainerController: UIViewController{ 
     
     // var sideMenuController: UIViewController?
     var centerPageController: PageController!
@@ -26,10 +26,13 @@ class ContainerController: UIViewController{
     
     var tests: String = "test"
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setPage(page: currentPage)
+        self.setPage(page: currentPage)
+        
+
         
         
     }
@@ -47,6 +50,8 @@ class ContainerController: UIViewController{
             centerPageController = UIStoryboard.specifiekMonumentPage()
         case .some(.locatieMonumentenPage):
             centerPageController = UIStoryboard.locatieMonumentenPage()
+           
+            
         case .geschiedenisPage?:
             centerPageController = UIStoryboard.geschiedenisPage()
         case .none:
@@ -156,21 +161,24 @@ class ContainerController: UIViewController{
     }
     
     @IBAction func locationButtonPressed(_ sender: Any){
-        let latitude:CLLocationDegrees = monumenten[monumentNummer].latitude
-        let longitude:CLLocationDegrees = monumenten[monumentNummer].longitude
         
-        let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
-        let regionDistance:CLLocationDistance = 10000
-        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
-        let options = [
-            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
-            MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
-        ]
+        specificLocation = true
+        changePage(page: .locatieMonumentenPage)
+        //locatieMonumentenPageDelegate.goToSpecificAnnotation(latitude: latitude, longitude: longitude)
         
-        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
-        let mapItem = MKMapItem(placemark: placemark)
-        mapItem.name = monumenten[monumentNummer].title
-        mapItem.openInMaps(launchOptions: options)
+//        let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
+//        let regionDistance:CLLocationDistance = 10000
+//        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+//        let options = [
+//            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
+//            MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
+//        ]
+//
+//        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+//        let mapItem = MKMapItem(placemark: placemark)
+//        mapItem.name = monumenten[monumentNummer].title
+//
+//        mapItem.openInMaps(launchOptions: options)
         
         
         

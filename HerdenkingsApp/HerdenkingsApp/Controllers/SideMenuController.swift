@@ -30,6 +30,7 @@ class SideMenuController: UITableViewController{
         }
         else if(indexPath.item == 3){
             containerDelegate.changePage(page: .locatieMonumentenPage)
+            specificLocation = false
         }
         else if(indexPath.item == 4){
             containerDelegate.changePage(page: .geschiedenisPage)
