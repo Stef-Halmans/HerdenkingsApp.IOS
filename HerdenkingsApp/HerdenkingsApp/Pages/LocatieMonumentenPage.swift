@@ -34,7 +34,7 @@ class LocatieMonumentenPage: PageController, MKMapViewDelegate {
             
         }
         else if(!specificLocation){
-            setupMaps(latitude: 51.19027778, longitude: 6.00361111, offset: 0.2)
+            setupMaps(latitude: 51.1984982, longitude: 6.0169195, offset: 0.15)
         }
 
     }
