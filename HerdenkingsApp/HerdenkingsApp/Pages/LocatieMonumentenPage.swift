@@ -34,7 +34,7 @@ class LocatieMonumentenPage: PageController, MKMapViewDelegate {
             
         }
         else if(!specificLocation){
-            setupMaps(latitude: 51.1984982, longitude: 6.0169195, offset: 0.15)
+          //  setupMaps(latitude: 51.1984982, longitude: 6.0169195, offset: 0.15)
         }
 
     }
@@ -57,6 +57,7 @@ class LocatieMonumentenPage: PageController, MKMapViewDelegate {
                     
                 mapView.addAnnotation(mapPoint)
             }
+            mapView.showAnnotations(mapView.annotations, animated: true)
            
             
 
@@ -78,6 +79,7 @@ class LocatieMonumentenPage: PageController, MKMapViewDelegate {
         if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView {
             dequeuedView.annotation = annotation
             view = dequeuedView
+            view.canShowCallout = true
         } else{
             view = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
             view.canShowCallout = true
@@ -92,7 +94,7 @@ class LocatieMonumentenPage: PageController, MKMapViewDelegate {
     }
     
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-        setupMaps(latitude: (view.annotation?.coordinate.latitude)! , longitude: view.annotation!.coordinate.longitude, offset: 0.005)
+        setupMaps(latitude: (view.annotation?.coordinate.latitude)! , longitude: view.annotation!.coordinate.longitude, offset: 0.0015)
         
     }
     

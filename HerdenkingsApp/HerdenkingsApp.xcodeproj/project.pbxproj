@@ -16,9 +16,9 @@
 		D92F04C223B969E400D0CBE9 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C123B969E400D0CBE9 /* SlideInTransition.swift */; };
 		D92F04C523B96A7100D0CBE9 /* Monument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C423B96A7100D0CBE9 /* Monument.swift */; };
 		D92F04C723B96A8B00D0CBE9 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F04C623B96A8B00D0CBE9 /* LoadData.swift */; };
-		D954B9D723ECB98100D55F75 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954B9D623ECB98100D55F75 /* MapKit.framework */; };
 		D9551CD723E9BAB300E74E69 /* LocatieMonumentenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9551CD623E9BAB300E74E69 /* LocatieMonumentenPage.swift */; };
 		D95EC5DE23D9040400232C63 /* MonumentImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95EC5DD23D9040400232C63 /* MonumentImageCell.swift */; };
+		D96ADA7D23EED5870058BA83 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96ADA7C23EED5870058BA83 /* MapKit.framework */; };
 		D974160623DA5B4D002CB7F7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D974160523DA5B4D002CB7F7 /* Functions.swift */; };
 		D983122B2385B1E100199788 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983122A2385B1E100199788 /* PageController.swift */; };
 		D983122D2385B35F00199788 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983122C2385B35F00199788 /* Variables.swift */; };
@@ -62,9 +62,9 @@
 		D92F04C123B969E400D0CBE9 /* SlideInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		D92F04C423B96A7100D0CBE9 /* Monument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monument.swift; sourceTree = "<group>"; };
 		D92F04C623B96A8B00D0CBE9 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
-		D954B9D623ECB98100D55F75 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D9551CD623E9BAB300E74E69 /* LocatieMonumentenPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatieMonumentenPage.swift; sourceTree = "<group>"; };
 		D95EC5DD23D9040400232C63 /* MonumentImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentImageCell.swift; sourceTree = "<group>"; };
+		D96ADA7C23EED5870058BA83 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D974160523DA5B4D002CB7F7 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		D983122A2385B1E100199788 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		D983122C2385B35F00199788 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D954B9D723ECB98100D55F75 /* MapKit.framework in Frameworks */,
+				D96ADA7D23EED5870058BA83 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +148,7 @@
 		D954B9D523ECB98100D55F75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D954B9D623ECB98100D55F75 /* MapKit.framework */,
+				D96ADA7C23EED5870058BA83 /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -546,7 +546,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FHYJ7QUNZQ;
 				INFOPLIST_FILE = HerdenkingsApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,7 +565,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FHYJ7QUNZQ;
 				INFOPLIST_FILE = HerdenkingsApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

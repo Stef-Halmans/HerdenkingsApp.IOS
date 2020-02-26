@@ -89,7 +89,11 @@ class ContainerController: UIViewController{
         case .kiesGebiedPage?:
             changePage(page: .mainPage)
         case .locatieMonumentenPage?:
-            changePage(page: .mainPage)
+            if(specificLocation){
+                changePage(page: .specifiekMonumentPage)
+            } else{
+                changePage(page: .mainPage)
+            }
         case .geschiedenisPage?:
             changePage(page: .mainPage)
         case .none:
@@ -137,10 +141,10 @@ class ContainerController: UIViewController{
             uiRightBarButtonItems.append(menuBarButtonItem)
         }
         
-        let logo = UIImage(named: "BevrijdingsLogo")
+        let logo = UIImage(named: "NavBarLogo")
         let imageView = UIImageView(image:logo)
-        imageView.widthAnchor.constraint(equalToConstant: 105).isActive = true
-        imageView.heightAnchor.constraint(equalToConstant: 47).isActive = true
+        imageView.widthAnchor.constraint(equalToConstant: 120.7).isActive = true
+        imageView.heightAnchor.constraint(equalToConstant: 43).isActive = true
         
         centerPageController.navigationItem.rightBarButtonItems = uiRightBarButtonItems
         centerPageController.navigationItem.titleView = imageView
