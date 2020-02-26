@@ -164,7 +164,7 @@
         <scene sceneID="Gn9-U9-FoT">
             <objects>
                 <tableViewController storyboardIdentifier="SideMenuTableView" clearsSelectionOnViewWillAppear="NO" id="Ooq-iL-rGf" customClass="SideMenuController" customModule="HerdenkingsApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="RvX-Sb-vwo">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="RvX-Sb-vwo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -399,9 +399,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EE-KO-niu">
-                                        <rect key="frame" x="9" y="9" width="35" height="35"/>
+                                        <rect key="frame" x="9" y="13" width="35" height="26"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="kOY-0b-aja"/>
+                                            <constraint firstAttribute="height" constant="26" id="kOY-0b-aja"/>
                                             <constraint firstAttribute="width" constant="35" id="s4i-DU-u5A"/>
                                         </constraints>
                                         <state key="normal" image="previousButton"/>
@@ -410,10 +410,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAk-kP-czi">
-                                        <rect key="frame" x="370" y="9" width="35" height="35"/>
+                                        <rect key="frame" x="370" y="13" width="35" height="26"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="35" id="XMf-jQ-MWR"/>
-                                            <constraint firstAttribute="height" constant="35" id="y5d-cf-PXf"/>
+                                            <constraint firstAttribute="height" constant="26" id="y5d-cf-PXf"/>
                                         </constraints>
                                         <state key="normal" image="nextButton"/>
                                         <connections>
@@ -423,14 +423,14 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.11307487636804581" green="0.21944507956504822" blue="0.57383304834365845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="NAk-kP-czi" firstAttribute="top" secondItem="78Y-B8-NCI" secondAttribute="top" constant="9" id="1Cp-r3-zma"/>
+                                    <constraint firstItem="NAk-kP-czi" firstAttribute="top" secondItem="78Y-B8-NCI" secondAttribute="top" constant="13" id="1Cp-r3-zma"/>
                                     <constraint firstItem="i8P-zP-adR" firstAttribute="centerX" secondItem="78Y-B8-NCI" secondAttribute="centerX" id="3Mw-SG-m1X"/>
-                                    <constraint firstItem="2EE-KO-niu" firstAttribute="top" secondItem="78Y-B8-NCI" secondAttribute="top" constant="9" id="ANw-Cn-6iQ"/>
+                                    <constraint firstItem="2EE-KO-niu" firstAttribute="top" secondItem="78Y-B8-NCI" secondAttribute="top" constant="13" id="ANw-Cn-6iQ"/>
                                     <constraint firstItem="i8P-zP-adR" firstAttribute="top" secondItem="78Y-B8-NCI" secondAttribute="top" constant="4" id="EJZ-kI-lFq"/>
                                     <constraint firstItem="i8P-zP-adR" firstAttribute="centerY" secondItem="78Y-B8-NCI" secondAttribute="centerY" id="F2a-dT-32A"/>
-                                    <constraint firstAttribute="bottom" secondItem="NAk-kP-czi" secondAttribute="bottom" constant="9" id="TfV-KL-oj0"/>
+                                    <constraint firstAttribute="bottom" secondItem="NAk-kP-czi" secondAttribute="bottom" constant="14" id="TfV-KL-oj0"/>
                                     <constraint firstItem="2EE-KO-niu" firstAttribute="leading" secondItem="78Y-B8-NCI" secondAttribute="leading" constant="9" id="ggY-6w-72f"/>
-                                    <constraint firstAttribute="bottom" secondItem="2EE-KO-niu" secondAttribute="bottom" constant="9" id="oZA-wv-fIA"/>
+                                    <constraint firstAttribute="bottom" secondItem="2EE-KO-niu" secondAttribute="bottom" constant="14" id="oZA-wv-fIA"/>
                                     <constraint firstAttribute="trailing" secondItem="NAk-kP-czi" secondAttribute="trailing" constant="9" id="pfS-em-5SC"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="oay-Nn-p3o"/>
@@ -684,10 +684,10 @@ De bevrijding van Roermond wordt uiteindelijk ingeluid met zware bombardementen 
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Asenray" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWg-O4-GiR">
-                                <rect key="frame" x="238" y="675" width="156" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Asenray/Elmpterwald" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWg-O4-GiR">
+                                <rect key="frame" x="226" y="675" width="180" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="vWg-O4-GiR" secondAttribute="height" multiplier="52:7" id="kTJ-vC-rwn"/>
+                                    <constraint firstAttribute="width" secondItem="vWg-O4-GiR" secondAttribute="height" multiplier="52:7" constant="24" id="kTJ-vC-rwn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -704,7 +704,7 @@ De bevrijding van Roermond wordt uiteindelijk ingeluid met zware bombardementen 
                             <constraint firstItem="N3x-do-oEV" firstAttribute="leading" secondItem="rWU-cm-eLF" secondAttribute="leading" constant="20" id="7OP-7k-YyV"/>
                             <constraint firstItem="wCV-CQ-teH" firstAttribute="trailing" secondItem="rWU-cm-eLF" secondAttribute="trailing" id="8rl-Ld-WWE"/>
                             <constraint firstItem="vIU-Ky-Zm7" firstAttribute="leading" secondItem="9B1-LY-UUY" secondAttribute="trailing" constant="62" id="9ek-Oq-ZyQ"/>
-                            <constraint firstItem="vWg-O4-GiR" firstAttribute="trailing" secondItem="ZWE-zk-gZ1" secondAttribute="trailing" id="BHk-gw-Rof"/>
+                            <constraint firstItem="vWg-O4-GiR" firstAttribute="trailing" secondItem="ZWE-zk-gZ1" secondAttribute="trailing" constant="12" id="BHk-gw-Rof"/>
                             <constraint firstItem="ine-6R-hOF" firstAttribute="trailing" secondItem="3xC-Zq-06F" secondAttribute="trailing" id="Bt2-Jc-pdZ"/>
                             <constraint firstItem="N3x-do-oEV" firstAttribute="bottom" secondItem="ZWE-zk-gZ1" secondAttribute="bottom" id="HM5-Xl-7i3"/>
                             <constraint firstItem="6Kb-9K-cwL" firstAttribute="trailing" secondItem="vIU-Ky-Zm7" secondAttribute="trailing" constant="-10" id="HXe-5v-Rag"/>
@@ -716,7 +716,7 @@ De bevrijding van Roermond wordt uiteindelijk ingeluid met zware bombardementen 
                             <constraint firstItem="vIU-Ky-Zm7" firstAttribute="top" secondItem="9B1-LY-UUY" secondAttribute="top" id="Xyh-Rw-xhk"/>
                             <constraint firstItem="wCV-CQ-teH" firstAttribute="centerX" secondItem="rWU-cm-eLF" secondAttribute="centerX" id="ZEg-TG-OGF"/>
                             <constraint firstItem="9B1-LY-UUY" firstAttribute="leading" secondItem="rWU-cm-eLF" secondAttribute="leading" constant="20" id="aMg-sF-IT8"/>
-                            <constraint firstItem="vWg-O4-GiR" firstAttribute="leading" secondItem="ZWE-zk-gZ1" secondAttribute="leading" id="bbr-mi-ebg"/>
+                            <constraint firstItem="vWg-O4-GiR" firstAttribute="leading" secondItem="ZWE-zk-gZ1" secondAttribute="leading" constant="-12" id="bbr-mi-ebg"/>
                             <constraint firstItem="ygi-ye-Rfi" firstAttribute="top" secondItem="N3x-do-oEV" secondAttribute="bottom" id="ca3-uI-Fpt"/>
                             <constraint firstItem="vIU-Ky-Zm7" firstAttribute="top" secondItem="3xC-Zq-06F" secondAttribute="bottom" constant="32" id="cgo-8Q-tgc"/>
                             <constraint firstItem="3xC-Zq-06F" firstAttribute="leading" secondItem="rWU-cm-eLF" secondAttribute="leading" constant="20" id="e0K-mP-Xmu"/>
@@ -865,7 +865,7 @@ De bevrijding van Roermond wordt uiteindelijk ingeluid met zware bombardementen 
         <image name="MaasnielFrontFoto" width="1036" height="1382"/>
         <image name="RoermondFrontFoto" width="3456" height="1183"/>
         <image name="SwalmenFrontFoto" width="2116" height="2822"/>
-        <image name="nextButton" width="1988" height="1741"/>
-        <image name="previousButton" width="1988" height="1741"/>
+        <image name="nextButton" width="512" height="512"/>
+        <image name="previousButton" width="512" height="512"/>
     </resources>
 </document>

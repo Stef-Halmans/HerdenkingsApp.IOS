@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "backbutton.png",
+      "filename" : "backArrow.png",
       "scale" : "1x"
     },
     {

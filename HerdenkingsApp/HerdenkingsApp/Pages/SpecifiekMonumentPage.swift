@@ -51,7 +51,12 @@ class SpecifiekMonumentPage: PageController {
 
         monumentenUitGebied = monumenten.sort(gebied: currentGebied)
 
-        gebiedName.text = Functions.enumToString(gebied: currentGebied)
+        if(currentGebied == .alleGebieden){
+            gebiedName.text = "Alle monumenten"
+        }
+        else{
+            gebiedName.text = Functions.enumToString(gebied: currentGebied)
+        }
         monumentDescription.isScrollEnabled = true
         monumentDescription.isUserInteractionEnabled = true
         monumentDescription.scrollRangeToVisible(NSMakeRange(0, 0))
