@@ -28,8 +28,12 @@ class LijstMonumentenPage: PageController, UICollectionViewDataSource, UICollect
         
         monumentenCollectionView.collectionViewLayout = layout
         
-        gebiedLabel.text = Functions.enumToString(gebied: currentGebied)
-        
+        if(currentGebied == .alleGebieden){
+            gebiedLabel.text = "Alle monumenten"
+        }
+        else{
+            gebiedLabel.text = Functions.enumToString(gebied: currentGebied)
+        }       
 
 
     }

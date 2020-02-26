@@ -20,7 +20,7 @@ public class Functions{
         case .maasniel:
             return "Maasniel"
         case .asenray:
-            return "Asenray"
+            return "Asenray/Elmpterwald"
         case .alleGebieden:
             return "Alle gebieden"
         }

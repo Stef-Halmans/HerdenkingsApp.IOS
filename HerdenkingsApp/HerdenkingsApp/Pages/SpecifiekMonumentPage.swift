@@ -55,7 +55,7 @@ class SpecifiekMonumentPage: PageController {
             gebiedName.text = "Alle monumenten"
         }
         else{
-            gebiedName.text = Functions.enumToString(gebied: currentGebied)
+            
         }
         monumentDescription.isScrollEnabled = true
         monumentDescription.isUserInteractionEnabled = true
@@ -65,6 +65,7 @@ class SpecifiekMonumentPage: PageController {
 
     func initializeMonument(firstMonument: Bool){
         if(firstMonument){
+            gebiedName.text = Functions.enumToString(gebied: monumentenUitGebied[monumentNummer].regio) 
             monumentPicture.image = UIImage(named:
                 monumentenUitGebied[monumentNummer].imageFilename)
             monumentName.text = monumentenUitGebied[monumentNummer].title

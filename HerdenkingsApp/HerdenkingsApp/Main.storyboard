@@ -399,9 +399,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EE-KO-niu">
-                                        <rect key="frame" x="9" y="13" width="35" height="26"/>
+                                        <rect key="frame" x="9" y="9" width="35" height="35"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="26" id="kOY-0b-aja"/>
+                                            <constraint firstAttribute="height" constant="35" id="kOY-0b-aja"/>
                                             <constraint firstAttribute="width" constant="35" id="s4i-DU-u5A"/>
                                         </constraints>
                                         <state key="normal" image="previousButton"/>
@@ -410,10 +410,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAk-kP-czi">
-                                        <rect key="frame" x="370" y="13" width="35" height="26"/>
+                                        <rect key="frame" x="370" y="9" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="35" id="XMf-jQ-MWR"/>
-                                            <constraint firstAttribute="height" constant="26" id="y5d-cf-PXf"/>
+                                            <constraint firstAttribute="height" constant="35" id="y5d-cf-PXf"/>
                                         </constraints>
                                         <state key="normal" image="nextButton"/>
                                         <connections>
@@ -423,14 +423,14 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.11307487636804581" green="0.21944507956504822" blue="0.57383304834365845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="NAk-kP-czi" firstAttribute="top" secondItem="78Y-B8-NCI" secondAttribute="top" constant="13" id="1Cp-r3-zma"/>
+                                    <constraint firstItem="NAk-kP-czi" firstAttribute="top" secondItem="78Y-B8-NCI" secondAttribute="top" constant="9" id="1Cp-r3-zma"/>
                                     <constraint firstItem="i8P-zP-adR" firstAttribute="centerX" secondItem="78Y-B8-NCI" secondAttribute="centerX" id="3Mw-SG-m1X"/>
-                                    <constraint firstItem="2EE-KO-niu" firstAttribute="top" secondItem="78Y-B8-NCI" secondAttribute="top" constant="13" id="ANw-Cn-6iQ"/>
+                                    <constraint firstItem="2EE-KO-niu" firstAttribute="top" secondItem="78Y-B8-NCI" secondAttribute="top" constant="9" id="ANw-Cn-6iQ"/>
                                     <constraint firstItem="i8P-zP-adR" firstAttribute="top" secondItem="78Y-B8-NCI" secondAttribute="top" constant="4" id="EJZ-kI-lFq"/>
                                     <constraint firstItem="i8P-zP-adR" firstAttribute="centerY" secondItem="78Y-B8-NCI" secondAttribute="centerY" id="F2a-dT-32A"/>
-                                    <constraint firstAttribute="bottom" secondItem="NAk-kP-czi" secondAttribute="bottom" constant="14" id="TfV-KL-oj0"/>
+                                    <constraint firstAttribute="bottom" secondItem="NAk-kP-czi" secondAttribute="bottom" constant="9" id="TfV-KL-oj0"/>
                                     <constraint firstItem="2EE-KO-niu" firstAttribute="leading" secondItem="78Y-B8-NCI" secondAttribute="leading" constant="9" id="ggY-6w-72f"/>
-                                    <constraint firstAttribute="bottom" secondItem="2EE-KO-niu" secondAttribute="bottom" constant="14" id="oZA-wv-fIA"/>
+                                    <constraint firstAttribute="bottom" secondItem="2EE-KO-niu" secondAttribute="bottom" constant="9" id="oZA-wv-fIA"/>
                                     <constraint firstAttribute="trailing" secondItem="NAk-kP-czi" secondAttribute="trailing" constant="9" id="pfS-em-5SC"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="oay-Nn-p3o"/>
@@ -684,7 +684,7 @@ De bevrijding van Roermond wordt uiteindelijk ingeluid met zware bombardementen 
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Asenray/Elmpterwald" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWg-O4-GiR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Asenray/Elmpterwald" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vWg-O4-GiR">
                                 <rect key="frame" x="226" y="675" width="180" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vWg-O4-GiR" secondAttribute="height" multiplier="52:7" constant="24" id="kTJ-vC-rwn"/>
